@@ -1,0 +1,87 @@
+\documentclass[ALICE,manyauthors]{cernphprep}
+
+\usepackage[comma,square,numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{subcaption}
+\usepackage[section]{placeins}
+\usepackage {multicol}% Multi column in the table
+\usepackage {multirow}% Multi row in the table
+\usepackage {units}
+
+\linenumbers
+
+\input{commands.tex}
+\begin{document}%
+
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+\PHyear{}
+\PHnumber{2019-xxx}      % required, will be obtained from PH
+%\PHdate{Day Month}  % required, will be obtained from PH
+\PHdate{\today}
+%
+
+%%% Put your own title + short title here:
+\title{Long-range correlations  in high-multiplicity  proton--proton collisions  at \s~=~\unit[13]{TeV}}
+\ShortTitle{Long-range correlations in pp collisions}   % appears on right page headers
+
+%%% Do not change the next lines
+%\Collaboration{ALICE Collaboration\thanks{See Appendix~\ref{app:collab} for the list of collaboration members}}
+\ShortAuthor{ALICE Collaboration} % appears on left page headers, do not change
+
+\begin{abstract}
+
+\end{abstract}
+\end{titlepage}
+\setcounter{page}{2}
+
+\section{Introduction}
+
+\section{Experimental setup}
+
+
+\section {Data sample and analysis}
+
+\section {Results}
+
+
+\section{Conclusions}
+
+
+
+%%%%% acknowledgements
+\newenvironment{acknowledgement}{\relax}{\relax}
+%\begin{acknowledgement}
+%\section*{Acknowledgements}
+%\input{acknowledgements.tex}    %%%%%%% done by webmaster team
+%\end{acknowledgement}
+
+%%%%%%%% Bibliography (In case of using bibtex generate the bbl requested by arXiv)
+%\bibliographystyle{utphys}   % Remember we use title in the biblio
+%\bibliography{biblio}
+%\input {bibliography.tex}
+
+%%%%%%%%% appendix with author list
+\newpage
+\appendix
+%
+%\input{}               %%%%%%%%%%% put your appendices here
+%
+
+
+
+
+
+%\section{The ALICE Collaboration}
+%\label{app:collab}
+%\input{authorlist-preprint.tex}  %%%%%%% done by webmaster team
+
+
+\clearpage
+\bibliography{reference}
+\bibliographystyle{utphys}
+
+
+\end{document}
