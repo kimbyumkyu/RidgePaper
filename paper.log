@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  14 OCT 2019 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  12 NOV 2019 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,62 +334,48 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box31
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip60
+\subfigcapskip=\skip61
+\subfigcaptopadj=\dimen130
+\subfigbottomskip=\skip62
+\subfigcapmargin=\dimen131
+\subfiglabelskip=\skip63
+\c@subfigure=\count120
+\c@lofdepth=\count121
+\c@subtable=\count122
+\c@lotdepth=\count123
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen130
-\captionmargin@=\dimen131
-\captionwidth=\dimen132
-\caption@tempdima=\dimen133
-\caption@indent=\dimen134
-\caption@parindent=\dimen135
-\caption@hangindent=\dimen136
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip64
+\subfig@bottom=\skip65
 )
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
-p \sbox \@tempboxa {{\small \textbf {#1:} #2}}\ifdim \wd \@tempboxa >\hsize {\s
-mall \textbf {#1:} #2}\par \else \global \@minipagefalse \hbox to\hsize {\hfil 
-\box \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
-\c@caption@flags=\count120
-\c@ContinuedFloat=\count121
-Package caption Info: hyperref package is loaded.
-)
-\c@subfigure=\count122
-\c@subtable=\count123
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \c@tracingmulticols=\count124
 \mult@box=\box32
-\multicol@leftmargin=\dimen137
+\multicol@leftmargin=\dimen132
 \c@unbalance=\count125
 \c@collectmore=\count126
 \doublecol@number=\count127
 \multicoltolerance=\count128
 \multicolpretolerance=\count129
-\full@width=\dimen138
-\page@free=\dimen139
-\premulticols=\dimen140
-\postmulticols=\dimen141
-\multicolsep=\skip60
-\multicolbaselineskip=\skip61
+\full@width=\dimen133
+\page@free=\dimen134
+\premulticols=\dimen135
+\postmulticols=\dimen136
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
 \partial@page=\box33
 \last@line=\box34
-\maxbalancingoverflow=\dimen142
+\maxbalancingoverflow=\dimen137
 \mult@rightbox=\box35
 \mult@grightbox=\box36
 \mult@gfirstbox=\box37
@@ -413,47 +399,47 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box55
 \c@columnbadness=\count130
 \c@finalcolumnbadness=\count131
-\last@try=\dimen143
-\multicolovershoot=\dimen144
-\multicolundershoot=\dimen145
+\last@try=\dimen138
+\multicolovershoot=\dimen139
+\multicolundershoot=\dimen140
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
 \mc@col@check@num=\count132
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip62
+\multirow@colwidth=\skip68
 \multirow@cntb=\count133
-\multirow@dima=\skip63
-\bigstrutjot=\dimen146
+\multirow@dima=\skip69
+\bigstrutjot=\dimen141
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip64
-\L@UnitsRaiseTextstyle=\skip65
-\L@UnitsRaiseScriptstyle=\skip66
+\L@UnitsRaiseDisplaystyle=\skip70
+\L@UnitsRaiseTextstyle=\skip71
+\L@UnitsRaiseScriptstyle=\skip72
 ))
 (./commands.tex) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -461,13 +447,13 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count134
-\scratchdimen=\dimen147
+\scratchdimen=\dimen142
 \scratchbox=\box58
 \nofMPsegments=\count135
 \nofMParguments=\count136
 \everyMPshowfont=\toks24
 \MPscratchCnt=\count137
-\MPscratchDim=\dimen148
+\MPscratchDim=\dimen143
 \MPnumerator=\count138
 \makeMPintoPDFobject=\count139
 \everyMPtoPDFconversion=\toks25
@@ -489,7 +475,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -499,99 +485,191 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count140
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./paper.out) (./paper.out)
 \@outlinefile=\write3
 \openout3 = `paper.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 <alicelogo.pdf, id=24, 116.1138pt x 142.61281pt>
 File: alicelogo.pdf Graphic file (type pdf)
 <use alicelogo.pdf>
-Package pdftex.def Info: alicelogo.pdf  used on input line 27.
+Package pdftex.def Info: alicelogo.pdf  used on input line 28.
 (pdftex.def)             Requested size: 46.3313pt x 56.9055pt.
 <cernlogo.pdf, id=25, 426.59375pt x 427.5975pt>
 File: cernlogo.pdf Graphic file (type pdf)
 <use cernlogo.pdf>
-Package pdftex.def Info: cernlogo.pdf  used on input line 27.
+Package pdftex.def Info: cernlogo.pdf  used on input line 28.
 (pdftex.def)             Requested size: 56.76749pt x 56.9055pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 28.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 27
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 28
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 27
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 28
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 27
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 28
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 27
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 28
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
  [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./alice
 logo.pdf> <./cernlogo.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
  [2
 
-] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
- [4
+]
+<./figures/corr1.pdf, id=77, 569.12625pt x 410.333pt>
+File: ./figures/corr1.pdf Graphic file (type pdf)
+<use ./figures/corr1.pdf>
+Package pdftex.def Info: ./figures/corr1.pdf  used on input line 95.
+(pdftex.def)             Requested size: 141.12454pt x 101.75026pt.
+<./figures/corr2.pdf, id=78, 569.12625pt x 410.333pt>
+File: ./figures/corr2.pdf Graphic file (type pdf)
+<use ./figures/corr2.pdf>
+Package pdftex.def Info: ./figures/corr2.pdf  used on input line 96.
+(pdftex.def)             Requested size: 141.12454pt x 101.75026pt.
+<./figures/corr3.pdf, id=79, 569.12625pt x 410.333pt>
+File: ./figures/corr3.pdf Graphic file (type pdf)
+<use ./figures/corr3.pdf>
+Package pdftex.def Info: ./figures/corr3.pdf  used on input line 97.
+(pdftex.def)             Requested size: 141.12454pt x 101.75026pt.
+<./figures/dp1.pdf, id=80, 569.12625pt x 402.50375pt>
+File: ./figures/dp1.pdf Graphic file (type pdf)
+<use ./figures/dp1.pdf>
+Package pdftex.def Info: ./figures/dp1.pdf  used on input line 109.
+(pdftex.def)             Requested size: 141.12454pt x 99.80884pt.
+<./figures/dp2.pdf, id=81, 569.12625pt x 402.50375pt>
+File: ./figures/dp2.pdf Graphic file (type pdf)
+<use ./figures/dp2.pdf>
+Package pdftex.def Info: ./figures/dp2.pdf  used on input line 110.
+(pdftex.def)             Requested size: 141.12454pt x 99.80884pt.
+<./figures/dp3.pdf, id=82, 569.12625pt x 402.50375pt>
+File: ./figures/dp3.pdf Graphic file (type pdf)
+<use ./figures/dp3.pdf>
+Package pdftex.def Info: ./figures/dp3.pdf  used on input line 111.
+(pdftex.def)             Requested size: 141.12454pt x 99.80884pt.
+<./figures/y.pdf, id=83, 569.12625pt x 336.15587pt>
+File: ./figures/y.pdf Graphic file (type pdf)
+<use ./figures/y.pdf>
+Package pdftex.def Info: ./figures/y.pdf  used on input line 118.
+(pdftex.def)             Requested size: 318.66946pt x 188.2306pt.
+<./figures/corrl1.pdf, id=86, 569.12625pt x 410.333pt>
+File: ./figures/corrl1.pdf Graphic file (type pdf)
+<use ./figures/corrl1.pdf>
+Package pdftex.def Info: ./figures/corrl1.pdf  used on input line 125.
+(pdftex.def)             Requested size: 182.09485pt x 131.29045pt.
+<./figures/corrl2.pdf, id=87, 569.12625pt x 410.333pt>
+File: ./figures/corrl2.pdf Graphic file (type pdf)
+<use ./figures/corrl2.pdf>
+Package pdftex.def Info: ./figures/corrl2.pdf  used on input line 126.
+(pdftex.def)             Requested size: 182.09485pt x 131.29045pt.
+<./figures/dpy1.pdf, id=88, 569.12625pt x 402.50375pt>
+File: ./figures/dpy1.pdf Graphic file (type pdf)
+<use ./figures/dpy1.pdf>
+Package pdftex.def Info: ./figures/dpy1.pdf  used on input line 133.
+(pdftex.def)             Requested size: 182.09485pt x 128.7854pt.
+<./figures/dpy2.pdf, id=89, 569.12625pt x 402.50375pt>
+File: ./figures/dpy2.pdf Graphic file (type pdf)
+<use ./figures/dpy2.pdf>
+Package pdftex.def Info: ./figures/dpy2.pdf  used on input line 134.
+(pdftex.def)             Requested size: 182.09485pt x 128.7854pt.
+<./figures/yl.pdf, id=90, 569.12625pt x 362.25337pt>
+File: ./figures/yl.pdf Graphic file (type pdf)
+<use ./figures/yl.pdf>
+Package pdftex.def Info: ./figures/yl.pdf  used on input line 141.
+(pdftex.def)             Requested size: 318.66946pt x 202.8439pt.
+
+
+./paper.tex:142: Package inputenc Error: Unicode character ∂ (U+2202)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 ...elds are identical within uncertainties.}
+                                                  
+? 
+
+./paper.tex:142: Package inputenc Error: Unicode character ∂ (U+2202)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 ...elds are identical within uncertainties.}
+                                                  
+? 
+[3] [4 <./figures/corr1.pdf> <./figures/corr2.pdf> <./figures/corr3.pdf> <./fig
+ures/dp1.pdf> <./figures/dp2.pdf> <./figures/dp3.pdf> <./figures/y.pdf>]
+[5 <./figures/corrl1.pdf> <./figures/corrl2.pdf> <./figures/dpy1.pdf> <./figure
+s/dpy2.pdf> <./figures/yl.pdf>] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+ [7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
  (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
-Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: C9F5C1F2F3924C511DDCA4C3230C2DC8;231.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+
+
+Package rerunfilecheck Warning: File `paper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `paper.out':
+(rerunfilecheck)             Before: C9F5C1F2F3924C511DDCA4C3230C2DC8;231
+(rerunfilecheck)             After:  AE1EC7913181BFD4CC8ED800D00C8863;282.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 8491 strings out of 492616
- 124398 string characters out of 6129482
- 227437 words of memory out of 5000000
- 12242 multiletter control sequences out of 15000+600000
- 44946 words of font info for 100 fonts, out of 8000000 for 9000
+ 7611 strings out of 492616
+ 107996 string characters out of 6129482
+ 211709 words of memory out of 5000000
+ 11327 multiletter control sequences out of 15000+600000
+ 46654 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,14n,45p,3509b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,13n,45p,3509b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -602,10 +680,10 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on paper.pdf (4 pages, 170746 bytes).
+Output written on paper.pdf (7 pages, 2834725 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

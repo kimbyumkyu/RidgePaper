@@ -3,7 +3,8 @@
 \usepackage[comma,square,numbers,sort&compress]{natbib}
 \usepackage{hyperref}
 \usepackage{lineno}
-\usepackage{subcaption}
+%\usepackage{subcaption}
+\usepackage{subfigure}
 \usepackage[section]{placeins}
 \usepackage {multicol}% Multi column in the table
 \usepackage {multirow}% Multi row in the table
@@ -12,7 +13,7 @@
 \linenumbers
 
 \input{commands.tex}
-\begin{document}%
+\begin{document}
 
 %%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{titlepage}
@@ -25,7 +26,7 @@
 
 %%% Put your own title + short title here:
 \title{Long-range correlations  in high-multiplicity  proton--proton collisions  at \s~=~\unit[13]{TeV} with ALICE at the LHC}
-\ShortTitle{Long-range correlations in \pp collisions}   % appears on right page headers
+\ShortTitle{Long-range correlations in pp collisions}   % appears on right page headers
 
 %%% Do not change the next lines
 %\Collaboration{ALICE Collaboration\thanks{See Appendix~\ref{app:collab} for the list of collaboration members}}
@@ -33,11 +34,13 @@
 
 \begin{abstract}
 
-The observed azimuthal modulations of long-range correlations in pseudorapidity in small systems like pp or p-Pb collisions show strikingly similar features to those seen in heavy ion collisions. Many theoretical approaches to interpreting this effect have been developed. However, it is still unclear whether these long-range correlations are due to final or initial state effects. To further investigate these effects, we studied long-range correlations as a function of transverse momentum in very high multiplicity pp collisions at $\sqrt{s} =13$ TeV, collected with the high multiplicity event trigger during 2016 and 2017 with ALICE. In this talk, we present the near-side per-trigger yield at large pseudorapidity separation (ridge yield) as a function of transverse momentum in pp collisions at $\sqrt{s} =13$ TeV. The results will be compared to previous measurements from CMS and ATLAS experiments. In addition, we present the ridge yield in events where harder fragmentation processes are present, to explore possible physical origins of long-range correlations.
+The observed azimuthal modulations of long-range correlations in pseudorapidity in small systems like pp or p-Pb collisions show strikingly similar features to those seen in heavy ion collisions. Many theoretical approaches to interpreting this effect have been developed. However, it is still unclear whether these long-range correlations are due to final or initial state effects. To further investigate these effects, we studied long-range correlations as a function of transverse momentum in very high multiplicity pp collisions at $\sqrt{s} =13$ TeV, collected with the high multiplicity event trigger during 2016 and 2017 with ALICE. In this talk, we present the near-side per-trigger yield at large pseudorapidity separation (ridge yield) as a function of transverse momentum in pp collisions at $\sqrt{s} =13$ TeV. The results are compared to previous measurements from CMS and ATLAS experiments. In addition, we present the ridge yield in events where harder fragmentation processes are present, to explore possible physical origins of long-range correlations.
 
 \end{abstract}
 \end{titlepage}
 \setcounter{page}{2}
+
+
 
 \section{Introduction}
 
@@ -46,7 +49,9 @@ The observed azimuthal modulations of long-range correlations in pseudorapidity 
 %Two-particle correlations are a powerful tool to explore the mechanism of particle production in collisions of hadrons and nu-clei at high energy. Such studies involve measuring the distribu-tions of relative anglesφandηbetween pairs of particles: a“trigger” particle in a certain transverse momentumpT,trigintervaland an “associated” particle in apT,associnterval, whereφandηare the differences in azimuthal angleφand pseudorapidityηbetween the two particles.In proton–proton (pp) collisions, the correlation at (φ≈0,η≈0) forpT,trig>2GeV/cis dominated by the “near-side” jetpeak, where trigger and associated particles originate from a frag-menting parton, and atφ≈πby the recoil or “away-side” jet[1].The away-side structure is elongated alongηdue to the longitu-dinal momentum distribution of partons in the colliding protons.In nucleus–nucleus collisions, the jet-related correlations are mod-ified and additional structures emerge, which persist over a longrange inηon the near side and on the away side[2–14].Theshape of these distributions when decomposed into a Fourier se-ries defined byvncoefficients[15]is found to be dominated bycontributions from terms withn=2 andn=3 [6,7,9–14].Thevncoefficients are sensitive to the geometry of the initial stateof the colliding nuclei[16,17]and can be related to the transport properties of the strongly-interacting de-confined matter via hy-drodynamic models[18–20].Recently, measurements in pp collisions at a centre-of-massenergy√s=7TeV[21]and in proton–lead (p–Pb) collisions ata nucleon–nucleon centre-of-mass energy√sNN=5.02 TeV[22]have revealed long-range (2<|η|<4) near-side (φ≈0) cor-relations in events with significantly higher-than-average particlemultiplicity. Various mechanisms have been proposed to explainthe origin of these ridge-like correlations in high-multiplicity ppand p–Pb events. These mechanisms include colour connectionsforming along the longitudinal direction[23–26], jet-medium[27]and multi-parton induced[28,29]interactions, and collective ef-fects arising in the high-density system possibly formed in thesecollisions[30–35].Results from two-particle correlations in√sNN=0.2TeVd–Aucollisions[36,37]show a strong suppression of the away-side yieldat forward rapidity in central collisions. This modification has beeninterpreted in the framework of “Colour Glass Condensate” mod-els [38]as a saturation effect caused by nonlinear gluon inter-actions in the high-density regime at small longitudinal partonmomentum fractionx. Similar effects may arise at midrapidity inp–Pb collisions at√sNN=5.02 TeV, where the parton distributionsare probed down tox<10−3, which is comparable to the relevantrange ofxat forward rapidity (y∼3) at√sNN=0.2TeV.This Letter presents results extracted from two-particle cor-relation measurements in p–Pb collisions at√sNN=5.02 TeV,recorded with the ALICE detector[39]at the Large Hadron Col-lider (LHC). The correlations are measured over two units of pseudorapidity and full azimuthal angle as a function of charged-particle multiplicity, and expressed as associated yield per triggerparticle. Sections2 and 3describe the experimental setup, andthe event and track selection, respectively. Details on the defini-tion of the correlation and the per-trigger-particle associated yieldare given in Section4. The results of the analysis are discussed inSection5 and a summary is given in Section
 
 
-Collective effect is one of key probes to study evolution of the hot and dense matter created in heavy-ion collisions at unltra-relativistic energy. The enhancement in the associated yield of two-particle correlations at small relative azimuthal angle($\Delta\varphi$) that extends over a long-range of relative pseudorapidity($\Delta\eta$) is often referred to as the “ridge”, which is one of the crucial observables of the result from the collective effect\cite{ridge_aa_1, ridge_aa_2}. In recent years, many results of unexpected observation of ridge in small systems, like proton-proton(pp) collisions and proton-nucleus(pA) collisions, has been reported(\cite{ridge_pp_1, ridge_pp_2, ridge_pp_3, ridge_pp_4}), showing similar features to those in heavy-ion collisions, where the volume and lifetime of the medium produced are expected to be small. There are many theoretical attempts\cite{ridge_theory_1, ridge_theory_2, ridge_theory_3, ridge_theory_4} to interpret the ridge considering hydrodynamics, saturation or other mechanisms. Those attempts are not demonstrating measured data fully because the sources of the ridge is not understood quantitatively in small systems. The understanding of possible origins of the ridge in small systems may provide a hint to distinguish the mechanism of formation of ridges.
+Collective effects are one of the key probes to study evolution of the hot and dense matter created in ultra-relativistic heavy-ion collisions. The enhancement in the associated yield of two-particle correlations at small relative azimuthal angle ($\Delta\varphi$) that extends over a long-range of relative pseudorapidity ($\Delta\eta$), often referred to as the “ridge”,  is one of the crucial observables of collectivity \cite{ridge_aa_1, ridge_aa_2}. In recent years, measurements of the ridge in small systems, such as proton-proton (pp) collisions and proton-nucleus (pA) collisions, where the volume and lifetime of the medium produced are expected to be small, have been reported\cite{ridge_pp_1, ridge_pp_2, ridge_pp_3, ridge_pp_4}. There are many theoretical attempts\cite{ridge_theory_1, ridge_theory_2, ridge_theory_3, ridge_theory_4} to interpret the ridge considering hydrodynamics, saturation or other mechanisms, but a quantitative description of the full set of experimental data has not yet been achieved.
+
+
 
 
 %Measurements of two-particle angular correlations in high-multiplicity proton-proton (pp) collisions at a centerof-mass energy ffiffi s p ¼ 7 TeV at the LHC showed an enhancement in the production of pairs at small azimuthal-angle separation, Δϕ, that extends over a wide range of pseudorapidity differences, Δη, and which is often referred to as the “ridge” [1]. The ridge has also been observed in proton-lead (p þ Pb) collisions [2–7], where it is found to result from a global sinusoidal modulation of the per-event single-particle azimuthal angle distributions [3–6]. While many theoretical interpretations of the ridge, including those based on hydrodynamics [8–12], saturation [13–23], or other mechanisms [24–30], have been, or could be applied to both pp and p þ Pb collisions, it has not yet been demonstrated that the ridge in pp collisions results from single-particle azimuthal anisotropies. Testing whether the ridges in pp and p þ Pb collisions arise from the same underlying features of the single-particle distributions may provide insight into the physics responsible for the phenomena. Separately, a study of the ffiffi s p dependence
@@ -58,31 +63,97 @@ Collective effect is one of key probes to study evolution of the hot and dense m
 
 Delivery of protons with world-highest energy by LHC at CERN makes it possible to generate various phenomena from their collisions. Recent center-of-mass energy of colliding two protons is increased up to \unit[13]{TeV} during LHC Run2 period. Among data from proton-proton collisions at \unit[13]{TeV}, This paper describes analysis results obtained by using 2016 to 2017 data sets.
 
+
+The full description of ALICE detector in the LHC Run 2 can be found in Ref. \cite{ALICEdet}. The present analysis mainly uses V0(\cite{VZEROpaper}), ITS (Inner Tracking System, \cite{ITSpaper}) and TPC (Time Projection Chamber, \cite{TPCpaper}) detectors. The V0 detector consists of two rings, V0-A and V0-C, each made of 32 scintillator tiles, covering the full azimuthal angle within 2.8$<\eta<$5.1 and -3.7$<\eta<$-1.7 respectively. The V0 provides trigger and estimation of event multiplicity. A sample of events with high numbers of produced particles is obtained with a high multiplicity trigger in the V0 detector. The ITS is composed of three subsystems, Silicon Pixel Detector(SPD), Silicon Drift Detector (SDD) and Silicon Strip Detector (SSD). ITS has an acceptance up to $|\eta|<$1.95 for single charged track reconstruction. The TPC, which is working inside solenoidal magnetic field of 0.5 T, has an acceptance up to $|\eta|<$0.9 for charged tracks reaching the outer radius of the TPC. The tracking of charged-particles is done with the combination of ITS and TPC, which enable the reconstruction of tracks down to 0.2 GeV/\it{c}\rm{} with $\sim$75\% efficiency.
+
 Subsystems mainly used in the present analysis, VZERO detector, Inner Tracking System(ITS) and Time Projection Chamber(TPC), are mainly discussed in the paper while the whole ALICE detector is well described in Ref. \cite{ALICEdet}. The VZERO is separated into two plates, VZERO-A and VZERO-C, consisting of two arrays of 32 scintillator tiles each, covering the full azimuthal angle within 2.8$<\eta<$5.1 and -3.7$<\eta<$-1.7 respectively. The VZERO provides trigger and event characterization with respect to particle abundance. With higher threshold, High Multiplicity Trigger can be implemented by VZERO to acquire very high multiplicity events exclusively.
 
 The responsibility of reconstruction of charged track is up to the ITS and the TPC. The ITS is composed of three subsystems, Silicon Pixel Detector(SPD), Silicon DriftDetector (SDD) and Silicon Strip Detector(SSD). ITS has an acceptance up to $|\eta|<$1.95 for single charged track reconstruction. The TPC, which is working inside solenoidal magnetic field of 0.5 T, has an acceptance up to $|\eta|<$0.9 for charged tracks reaching the outer radius of the TPC. The tracking of charged-particles is done with the combination of ITS and TPC, which also enable to reconstruct low transverse momentum tracks down to 0.15 GeV/\it{c}\rm{} with $\sim$70\% efficiency.
 
+
 \section{Analysis}
 
-The multiplicity class used in the present analysis is top 0-0.1\%, which denotes the most particle-abundant events, to study high multiplicity events and to observe the ridge structure from the following results(\cite{ridge_pp_1}). The present analysis uses charged tracks, whose reconstructed transverse momentum is larger than 0.2 GeV/\it{c}\rm{} in a fiducial region as $|\eta|<$0.9. The efficiency and contamination from non-primary tracks are estimated from a Monte Carlo(M.C.) simulation with PYTHIA8 event generator with particle transport through the detector using GEANT simulation. The efficiency and the contamination are dependent on particle multiplicity, where the tendencies of the changes are opposite each other up to $\sim$10\%, making total correction invariant.
+The multiplicity class used in the present analysis is top 0-0.1\%, which denotes the most particle-abundant events, to study high multiplicity events and to observe the ridge structure. This analysis uses charged tracks, whose reconstructed transverse momentum is larger than 0.2 GeV/\it{c}\rm{} in a fiducial region as $|\eta|<$0.9. The efficiency and contamination from non-primary tracks are estimated from a Monte Carlo simulation with PYTHIA8 event generator and with particle transport through the detector using GEANT simulation.
 
-The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudorapidity($\Delta\eta$) and azimuthal angle($\Delta\varphi$). The following equation expresses the correlation as associated yield per trigger particle as function of transverse momentum( $\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particle and associated particle with the condition of $\it{p}_{\rm{T, trig}} > \it{p}_{\rm{T, assoc}}$.
+The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudorapidity and azimuthal angle. The following equation expresses the correlation as associated yield per trigger particle as function of transverse momentum( $\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particle and associated particle with the condition of $\it{p}_{\rm{T, trig}} > \it{p}_{\rm{T, assoc}}$
 \begin{eqnarray}
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{assoc}} }{ \rm{d}\Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)},
 \end{eqnarray}
-Where the $N_{\rm{trig}}$ is the number of trigger particles in the corresponding event class. The signal distribution $S(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in the same event. The background distribution $B(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in mixed several events having same primary vertex and multiplicity class as in the events.
+where the $N_{\rm{trig}}$ is the number of trigger particles in the corresponding event class. The signal distribution $S(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in the same event. The background distribution $B(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in mixed several events having the same primary vertex and belonging to the same multiplicity class.
 
-The quantitative study of ridge is done with $\Delta\varphi$ distribution in the large $\Delta\eta$ to allow direct comparison of ridges between different $\it{p}_{\rm{T}}$ intervals. The large $\Delta\eta$ range is defined as 1.5$<|\Delta\eta|<$1.8 considering the limited detector acceptance. The baseline of the correlations is subtracted by implementing Zero-Yield-At-Minimum(ZYAM) procedure. The minimum yield($C_{\rm{ZYAM}}$) is obtained by fitting the $\Delta\varphi$ distribution with Fourier series up to the third harmonic. By subtracting $C_{\rm{ZYAM}}$ from the $\Delta\varphi$ distribution, the magnitude of long-range near-side yield is obtained and can be quantified by integrating the near-side peak of the $\Delta\varphi$ distribution. The margin of the integration(near-side) is determined as the minimum point from ZYAM procedure.
+The quantitative study of ridge is done with $\Delta\varphi$ distribution at large $\Delta\eta$ to allow direct comparison of ridges between different $\it{p}_{\rm{T}}$ intervals. The large $\Delta\eta$ range is defined as 1.5$<|\Delta\eta|<$1.8 considering the limited detector acceptance. The baseline of the correlations is subtracted by implementing Zero-Yield-At-Minimum (ZYAM) procedure. The minimum yield ($C_{\rm{ZYAM}}$) is defined as minimum value of the function, which consists of Fourier series up to the third harmonic and is determined by fitting the $\Delta\varphi$ distribution. By subtracting $C_{\rm{ZYAM}}$ from the $\Delta\varphi$ distribution, the magnitude of long-range near-side yield is obtained and can be quantified by integrating the near-side peak of the $\Delta\varphi$ distribution. The range of integration is enclosed by the points having the minimum yield, which is obtained from ZYAM procedure.
 
-The ridge yield is further studied with various hard fragment event selections in pp collisions. The event selection is implemented by requiring that transverse momentum of leading track is larger than specific threshold. The leading track is defined as a charged track having the largest transverse momentum in a given event. Because the high transverse momentum track mainly comes from hard scattering, the requirement of the leading track can control the hardness of events, which allow one to study the ridge in hard events.
+The ridge yield is further studied with various event selections regarding hard processes. The event selection is implemented by requiring that transverse momentum of leading track is larger than specific threshold. The leading track is defined as a charged track having the largest transverse momentum in a given event. Because the high transverse momentum track mainly comes from hard scattering, the requirement of the leading track can control the hardness of events, which allow one to study the ridge with events containing hard scatterings.
 
 \section {Results}
-The ridge yield as function of transverse momentum of trigger particle and associated particle has been measured with ALICE. The measured spectrum shows .... 
+
+The two-dimensional associated yield per trigger particle is shown in Figure 1 for pairs of trigger particle and associated particle with 1.0$<\it{p}_{\rm{T, assoc}}<\it{p}_{\rm{T, trig}}<$2.0 GeV/\it{c}\rm{} in pp collisions at $\sqrt{\it{s}} = $\unit{13} {\rm{}TeV} in the 0-0.1\% (left), 5-20\% (middle) and 20-100\% (right) multiplicity class estimated by V0 detector, which covers forward rapidity region. The ridge is clearly seen in high multiplicity class unlike in lower multiplicity classes.
+
+
+\begin{figure}
+	\centering
+	\subfigure{ \includegraphics[width=0.31\textwidth]{./figures/corr1.pdf} }
+	\subfigure{ \includegraphics[width=0.31\textwidth]{./figures/corr2.pdf} }
+	\subfigure{ \includegraphics[width=0.31\textwidth]{./figures/corr3.pdf} }
+	\caption{ Two-dimensional associated yield per trigger particle as function of $\Delta\eta$ and $\Delta\varphi$ in 0-0.1\% (left), 5-20\% (middle) and 20-100\% (right) multiplicity class. The interval of transverse momentum of trigger particle and associated particle is 1.0$<\it{p}_{\rm{T}}<$2.0 GeV/\it{c}\rm{}. }
+
+\end{figure}
+
+The one-dimensional $\Delta\varphi$ distribution is shown in Figure 2 for pairs of particles with various $\it{p}_{\rm{T}}$ intervals in very high multiplicity class. The associated yield per trigger particle is compared with CMS results. The near-side peak is highest in the 1.0$<\it{p}_{\rm{T}}<$2.0 interval and gradually decreases with increasing $\it{p}_{\rm{T}}$.
+
+The spectra of the ridge yield is shown in Figure 3 in very high multiplicity class and compared with CMS results. The estimator of particle multiplicity of ALICE is done with forward subsystem(V0), whereas that of CMS is done by mid-rapidity particles meeting with the condition of $|\eta|<$2.4 and $\it{p}_{\rm{T}}>$0.4 GeV/\it{c}\rm{}. Dedicated comparison is conducted and the difference of particle multiplicity is estimated to be about 20\%. Taking into account the difference in acceptance of charged tracks and comparable definition of multiplicity,, the measurements are can be considered comparable with each other.
+
+
+\begin{figure}
+	\centering
+	\subfigure{ \includegraphics[width=0.31\textwidth]{./figures/dp1.pdf} }
+	\subfigure{ \includegraphics[width=0.31\textwidth]{./figures/dp2.pdf} }
+	\subfigure{ \includegraphics[width=0.31\textwidth]{./figures/dp3.pdf} }
+	\caption{ One-dimensional $\Delta\varphi$ distribution in the large $\Delta\eta$ with various transverse momentum intervals. Interval of transverse momentum of trigger particle and associated particle is 1.0$<\it{p}_{\rm{T}}<$2.0 GeV/\it{c}\rm{} (left), 2.0$<\it{p}_{\rm{T}}<$3.0 GeV/\it{c}\rm{} (middle) and 3.0$<\it{p}_{\rm{T}}<$4.0 GeV/\it{c}\rm{} (right), respectively. }
+
+\end{figure}
+ 
+\begin{figure}
+	\centering
+	\subfigure{ \includegraphics[width=0.7\textwidth]{./figures/y.pdf} }
+	\caption{(color online) The spectra of ridge yield as function of transverse momentum. The spectrum is compared with CMS result \cite{ridge_pp_1}.}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\subfigure{ \includegraphics[width=0.4\textwidth]{./figures/corrl1.pdf} }
+	\subfigure{ \includegraphics[width=0.4\textwidth]{./figures/corrl2.pdf} }
+	\caption{ Two-dimensional associated yield per trigger particle as function of $\Delta\eta$ and $\Delta\varphi$ in top 0-0.1\% multiplicity class. The interval of transverse momentum of trigger particle and associated particle is 1.0$<\it{p}_{\rm{T}}<$2.0 GeV/\it{c}\rm{} for the plots. Threshold for leading track selection is 5 GeV/\it{c}\rm{} (left) and 7 GeV/\it{c}\rm{} (right), respectively. }
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\subfigure{ \includegraphics[width=0.4\textwidth]{./figures/dpy1.pdf} }
+	\subfigure{ \includegraphics[width=0.4\textwidth]{./figures/dpy2.pdf} }
+	\caption{ One-dimensional $\Delta\varphi$ distribution in the large $\Delta\eta$ with various leading track selection thresholds. Interval of transverse momentum of trigger particle and associated particle is 1.0$<\it{p}_{\rm{T}}<$2.0 GeV/\it{c}\rm{}. Threshold for leading track selection is 5 GeV/\it{c}\rm{} (left) and 7 GeV/\it{c}\rm{} (right) respectively. }
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\subfigure{ \includegraphics[width=0.7\textwidth]{./figures/yl.pdf} }
+	\caption{ The ridge yield spectrum with respect to the leading trac∂çk selection. The ridge yields are identical within uncertainties.}
+\end{figure}
+
+To further understand the behavior of the ridge in events including hard processes, the two-dimensional associated yield per trigger particle is measured with the leading track selection as shown in Figure 4. The ridge is still visible in the events where $\it{p}_{\rm{T}}^{\rm{Lead}}>$7 GeV/c, which means that the ridge co-exists with hard-scattering in pp collisions. 
+
+The one-dimensional $\Delta\varphi$ distribution with the leading track selection is shown in Figure 5. The near-side yield doesn't change with respect to the leading track requirements within the uncertainties, whereas the away-side peak increases as the leading track requirement gets stronger, presumably because of the increase of the recoil jet yield.
+
+The ridge yield is inspected as a function of the leading track selection in Figure 6. As seen in the previous plots, the ridge yield does not depend on the selection, which indicates that the ridge is not affected significantly by the hardness of the events.
+
+\section{Model Comparison}
 
 
 \section{Conclusions}
 
-
+Two-particle angular correlations in large $|\Delta\eta|$ has been measured in very high multiplicity events in pp collsions at $\sqrt{\it{s}}=13$ TeV with ALICE. The measured associated yield is found to be consistent with the previous results from CMS experiment. The ridge yield, for the first time, has been observed in events including hard processes. Furthermore, it is found to be independent of the hardness of the events. This observation is important for the study of the origins of the ridge in small collision systems.
 
 %%%%% acknowledgements
 \newenvironment{acknowledgement}{\relax}{\relax}
@@ -118,34 +189,33 @@ The ridge yield as function of transverse momentum of trigger particle and assoc
 \begin{thebibliography}{99}
 
 \bibitem{ridge_aa_1}
-CMS Collaboration, "Centrality dependence of dihadron correlations and azimuthal anisotropy harmonics in PbPb collisions at  $\sqrt{\it{s_{\rm{NN}}}} = $2.76 TeV",   Eur. Phys J. C72 (2012)
+CMS Collaboration, "Centrality dependence of dihadron correlations and azimuthal anisotropy harmonics in PbPb collisions at  $\sqrt{\it{s_{\rm{NN}}}} = $2.76 TeV",   Eur. Phys J. C72 (2012).
 \bibitem{ridge_aa_2}
-ALICE Collaboration, "Anisotropic Flow of Charged Particles in Pb-Pb Collisions at $\sqrt{\it{s_{\rm{NN}}}} = $5.02 TeV",  Phys. Rev. Lett. 116, 132302 (2016)
+ALICE Collaboration, "Anisotropic Flow of Charged Particles in Pb-Pb Collisions at $\sqrt{\it{s_{\rm{NN}}}} = $5.02 TeV",  Phys. Rev. Lett. 116, 132302 (2016).
 \bibitem{ridge_pp_1}
-CMS Collaboration, Measurement of Long-Range Near-Side Two-Particle Angular Correlations in pp Collisions at $\sqrt{\it{s}} = $13 TeV", Phys. Rev. Lett. 116, 172302 (2016)
+CMS Collaboration, Measurement of Long-Range Near-Side Two-Particle Angular Correlations in pp Collisions at $\sqrt{\it{s}} = $13 TeV", Phys. Rev. Lett. 116, 172302 (2016).
 \bibitem{ridge_pp_2}
-CMS Collaboration, "Evidence for collectivity in pp collisions at the LHC", Phys. Lett. B765 (2017) 193
+CMS Collaboration, "Evidence for collectivity in pp collisions at the LHC", Phys. Lett. B765 (2017) 193.
 \bibitem{ridge_pp_3}
-ALICE Collaboration, "Investigations of anisotropic flow using multi-particle azimuthal correlations in pp, p-Pb, Xe-Xe, and Pb-Pb collisions at the LHC", arXiv:1903.01790 [nucl-ex]
+ALICE Collaboration, "Investigations of anisotropic flow using multi-particle azimuthal correlations in pp, p-Pb, Xe-Xe, and Pb-Pb collisions at the LHC", arXiv:1903.01790 [nucl-ex].
 \bibitem{ridge_pp_4}
-PHENIX Collaboration, "Creation of quark–gluon plasma droplets with three distinct geometries", Nature Phys. 15, 214 (2019)
-, Nature Phys. 13, 535
+PHENIX Collaboration, "Creation of quark–gluon plasma droplets with three distinct geometries", Nature Phys. 15, 214 (2019), Nature Phys. 13, 535.
 \bibitem{ridge_theory_1}
-H. Mäntysaari, B. Schenke, C. Shen and P. Tribedy, "Imprints of fluctuating proton shapes on flow in proton-lead collisions at the LHC", Phys. Lett. B772 (2017) 681
+H. Mäntysaari, B. Schenke, C. Shen and P. Tribedy, "Imprints of fluctuating proton shapes on flow in proton-lead collisions at the LHC", Phys. Lett. B772 (2017) 681.
 \bibitem{ridge_theory_2}
-W. Zhao, Y. Zhou, H. Xu, W. Deng, and H. Song, “Hydrodynamic collectivity in proton?proton collisions at 13 TeV,” Phys. Lett. B780 (2018) 495
+W. Zhao, Y. Zhou, H. Xu, W. Deng, and H. Song, “Hydrodynamic collectivity in proton?proton collisions at 13 TeV,” Phys. Lett. B780 (2018) 495.
 \bibitem{ridge_theory_3}
-K. Welsh, J. Singer, and U. W. Heinz, “Initial state fluctuations in collisions between light and heavy ions,” Phys. Rev. C94 no. 2, (2016) 024919
+K. Welsh, J. Singer, and U. W. Heinz, “Initial state fluctuations in collisions between light and heavy ions,” Phys. Rev. C94 no. 2, (2016) 024919.
 \bibitem{ridge_theory_4}
-M. Greif, C. Greiner, B. Schenke, S. Schlichting, and Z. Xu, “Importance of initial and final state effects for azimuthal correlations in p+Pb collisions,” Phys. Rev. D96 no. 9, (2017) 091504
+M. Greif, C. Greiner, B. Schenke, S. Schlichting, and Z. Xu, “Importance of initial and final state effects for azimuthal correlations in p+Pb collisions,” Phys. Rev. D96 no. 9, (2017) 091504.
 \bibitem{ALICEdet}
 ALICE Collaboration, “The ALICE experiment at the CERN LHC,” JINST 3 (2008) S08002.
 \bibitem{ITSpaper}
-ALICE Collaboration, "Performance of the present ALICE Inner Tracking System and studies for the upgrade",  Journal of Instrumentation, 7, June (2012) C06007
+ALICE Collaboration, "Performance of the present ALICE Inner Tracking System and studies for the upgrade",  Journal of Instrumentation, 7, June (2012) C06007.
 \bibitem{VZEROpaper}
-ALICE Collaboration, "Performance of the ALICE VZERO system", JINST 8 (2013) P10016
+ALICE Collaboration, "Performance of the ALICE VZERO system", JINST 8 (2013) P10016.
 \bibitem{TPCpaper}
-ALICE Collaboration, "Performance of the ALICE Time Projection Chamber", Physics Procedia 37, (2012) 434
+ALICE Collaboration, "Performance of the ALICE Time Projection Chamber", Physics Procedia 37, (2012) 434.
 
 
 \end{thebibliography}
