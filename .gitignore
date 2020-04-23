@@ -1,0 +1,8 @@
+
+*.aux
+*.log
+paper.pdf
+paper.synctex.gz
+paper.bbl
+paper.blg
+paper.log
