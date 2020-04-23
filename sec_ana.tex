@@ -1,0 +1,57 @@
+\section{Experimental setup}
+
+Delivery of protons with world-highest energy by LHC at CERN makes it possible to generate various phenomena from their collisions. Recent center-of-mass energy of colliding two protons is increased up to $\sqrt{\it{s}} =$ \unit[13]{TeV} during LHC Run2 period. Among data from proton-proton collisions at \unit[13]{TeV}, This paper describes analysis results obtained by using 2016 to 2018 data sets. The full description of ALICE detector in the LHC Run 2 can be found in Ref. \cite{ALICEdet}. The present analysis mainly uses V0(\cite{VZEROpaper}), ITS (Inner Tracking System, \cite{ITSpaper}) and TPC (Time Projection Chamber, \cite{TPCpaper}) detectors.
+
+The V0 detector consists of two rings, V0-A and V0-C, each made of 32 scintillator tiles, covering the full azimuthal angle within 2.8$<\eta<$5.1 and -3.7$<\eta<$-1.7, respectively. The V0 provides trigger and estimation of event multiplicity. A sample of events including higher numbers of produced particles is obtained with a high multiplicity trigger, which is achieved by requiring higher amplitude of V0 Detector. 
+
+The responsibility of reconstruction of charged track is up to the ITS and the TPC. The ITS is composed of three subsystems, Silicon Pixel Detector(SPD), Silicon Drift Detector (SDD) and Silicon Strip Detector (SSD). The ITS has an acceptance up to $|\eta|<$1.95 for single charged track reconstruction. The TPC, which is working inside solenoidal magnetic field of 0.5 T, has an acceptance up to $|\eta|<$0.9 for charged tracks reaching the outer radius of the TPC. The tracking of charged-particles is done with the combination of the ITS and the TPC, which enable the reconstruction of tracks down to 0.2 GeV/\it{c}\rm{} with $\sim$75\% efficiency.
+
+\section{Analysis Procedure}
+
+The multiplicity class used in the present analysis is top 0-0.1\%, which denotes the most particle-abundant events including  $\sim$31 charged particles in the mid-rapidity region, to observe the clear ridge structure. This analysis uses charged particles, whose reconstructed transverse momenta are larger than 0.2 GeV/\it{c}\rm{} in a fiducial region as $|\eta|<$0.9. The efficiency and contamination from non-primary particles are estimated from a Monte Carlo simulation with PYTHIA8 event generator and with particle transport through the detector using GEANT simulation.
+
+The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudorapidity and azimuthal angle. The following equation expresses the correlation as associated yield per trigger particle as function of transverse momentum( $\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particle and associated particle with the condition of $\it{p}_{\rm{T, trig}} > \it{p}_{\rm{T, assoc}}$
+\begin{eqnarray}
+\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)},
+\end{eqnarray}
+where the $N_{\rm{trig}}$ is the number of trigger particles in the corresponding event class. The signal distribution $S(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in the same event. The background distribution $B(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in mixed several events having the same primary vertex and belonging to the same multiplicity class.
+
+The quantitative study of ridge is done with $\Delta\varphi$ distribution at large $\Delta\eta$ to allow direct comparison of ridges between different $\it{p}_{\rm{T}}$ intervals. The large $\Delta\eta$ range is defined as 1.5$<|\Delta\eta|<$1.8 considering the limited detector acceptance.
+\begin{eqnarray}
+\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N }{ \rm{d}\Delta\varphi } = \int_{|\Delta \eta|>1.5} \rm{d} \Delta \eta \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta \rm{d}\Delta\varphi}
+\end{eqnarray}
+The baseline of the correlations is subtracted by implementing Zero-Yield-At-Minimum (ZYAM) procedure. The minimum yield ($C_{\rm{ZYAM}}$) is defined as minimum value of the function, which consists of Fourier series up to the third harmonic and is determined by fitting the $\Delta\varphi$ distribution. By subtracting $C_{\rm{ZYAM}}$ from the $\Delta\varphi$ distribution, the magnitude of long-range near-side yield is obtained and can be quantified by integrating the near-side peak of the $\Delta\varphi$ distribution. The range of integration is enclosed by the points having the minimum yield, which is obtained from ZYAM procedure.
+
+The ridge yield is further studied with various event selections regarding hard processes. The event selection is implemented by requiring that transverse momentum of leading track is larger than specific threshold. The leading track is defined as a charged track having the largest transverse momentum in a given event. Because the high transverse momentum track mainly comes from hard scattering, the requirement of the leading track can control the hardness of events, which allow one to study the ridge with events containing hard scatterings.
+
+\section{Systematic Uncertainty}
+The background distribution is constructed using several events having same primary vertex. The effect of construction of background distribution is estimated by varying the primary vertex interval from 2 cm to 1 cm. The estimated effect is 6-10\%.
+
+The $\Delta\eta$ projection range for construction of long-range $\Delta\varphi$ is sensitive to contamination of non-flow effect. The effect of  $\Delta\eta$ projection range is estimated by varying the projection range. The estimated effect is 10-15\% for $\it{p}_{\rm{T}}>$1.0 GeV/\it{c}\rm{} and 20\% for 0.5$<\it{p}_{\rm{T}}<$1.0 GeV/\it{c}\rm{}. 
+
+The M.C. closure test for efficiency correction results in $\sim$4\% discrepancy. The discrepancy is considered into systematic uncertainty.
+
+The effect of primary vertex selection along the beam axis is estimated by varying the selection range of primary vertex from $|z_{vtx}|<$ 8 cm to $|z_{vtx}|<$ 6 cm. The estimated effect is $\sim$4\%. The effect of rejection of pile-up events. is estimated by varying the methodology of pile-up rejection. The estimated effect is $\sim$4\%. The effect of track selection is estimated by varying a few selection criteria included in track selection.The estimated effect is $\sim$5\%. 
+
+
+\begin{table}[!h]
+\centering
+\caption{ Summary of the systematic uncertainties. See text for details.}
+\begin{tabular}{ c|c }
+%\begin{tabular}{c || c}
+\hline
+Source &  Uncertainty \\ \hline
+Event mixing & 6-10\% \\  \hline
+$\Delta\eta$ projection range & 10-15\% \\ \hline
+M.C. closure & 4\% \\ \hline
+Primary vertex & 4\% \\ \hline
+Pileup Cut & 4\% \\ \hline
+Track selection & 5\% \\ \hline
+Total & 14-20\% \\
+\hline
+\end{tabular}
+%\caption{ Definition of multiplicity class in this analysis. Reference definition of multiplicity coud be found in the following link; \url{https://twiki.cern.ch/twiki/bin/viewauth/ALICE/ReferenceMult}  }
+\end{table}
+
+
+
