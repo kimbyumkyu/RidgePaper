@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  22 JAN 2020 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  6 MAY 2020 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -542,131 +542,424 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+
+(./abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
- [1
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+) [1
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./alice
-logo.pdf> <./cernlogo.pdf>]
+logo.pdf> <./cernlogo.pdf>] (./sec_intro.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
- [2
-
-] [3]
-<./figures/corr1.pdf, id=92, 569.12625pt x 410.53375pt>
-File: ./figures/corr1.pdf Graphic file (type pdf)
-<use ./figures/corr1.pdf>
-Package pdftex.def Info: ./figures/corr1.pdf  used on input line 126.
-(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/corr2.pdf, id=93, 569.12625pt x 410.53375pt>
-File: ./figures/corr2.pdf Graphic file (type pdf)
-<use ./figures/corr2.pdf>
-Package pdftex.def Info: ./figures/corr2.pdf  used on input line 127.
-(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/corr3.pdf, id=94, 569.12625pt x 410.53375pt>
-File: ./figures/corr3.pdf Graphic file (type pdf)
-<use ./figures/corr3.pdf>
-Package pdftex.def Info: ./figures/corr3.pdf  used on input line 128.
-(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/dp1.pdf, id=95, 569.12625pt x 410.53375pt>
-File: ./figures/dp1.pdf Graphic file (type pdf)
-<use ./figures/dp1.pdf>
-Package pdftex.def Info: ./figures/dp1.pdf  used on input line 140.
-(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/dp2.pdf, id=96, 569.12625pt x 410.53375pt>
-File: ./figures/dp2.pdf Graphic file (type pdf)
-<use ./figures/dp2.pdf>
-Package pdftex.def Info: ./figures/dp2.pdf  used on input line 141.
-(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/dp3.pdf, id=97, 569.12625pt x 410.53375pt>
-File: ./figures/dp3.pdf Graphic file (type pdf)
-<use ./figures/dp3.pdf>
-Package pdftex.def Info: ./figures/dp3.pdf  used on input line 142.
-(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/y.pdf, id=98, 569.12625pt x 410.53375pt>
-File: ./figures/y.pdf Graphic file (type pdf)
-<use ./figures/y.pdf>
-Package pdftex.def Info: ./figures/y.pdf  used on input line 149.
-(pdftex.def)             Requested size: 318.66946pt x 229.87854pt.
-<./figures/corrl1.pdf, id=101, 569.12625pt x 410.53375pt>
-File: ./figures/corrl1.pdf Graphic file (type pdf)
-<use ./figures/corrl1.pdf>
-Package pdftex.def Info: ./figures/corrl1.pdf  used on input line 156.
-(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/corrl2.pdf, id=102, 569.12625pt x 410.53375pt>
-File: ./figures/corrl2.pdf Graphic file (type pdf)
-<use ./figures/corrl2.pdf>
-Package pdftex.def Info: ./figures/corrl2.pdf  used on input line 157.
-(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/dpy1.pdf, id=103, 569.12625pt x 410.53375pt>
-File: ./figures/dpy1.pdf Graphic file (type pdf)
-<use ./figures/dpy1.pdf>
-Package pdftex.def Info: ./figures/dpy1.pdf  used on input line 164.
-(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/dpy2.pdf, id=104, 569.12625pt x 410.53375pt>
-File: ./figures/dpy2.pdf Graphic file (type pdf)
-<use ./figures/dpy2.pdf>
-Package pdftex.def Info: ./figures/dpy2.pdf  used on input line 165.
-(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/yl.pdf, id=105, 569.12625pt x 410.53375pt>
-File: ./figures/yl.pdf Graphic file (type pdf)
-<use ./figures/yl.pdf>
-Package pdftex.def Info: ./figures/yl.pdf  used on input line 172.
-(pdftex.def)             Requested size: 318.66946pt x 229.87854pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 
 
-./paper.tex:173: Package inputenc Error: Unicode character ∂ (U+2202)
-(inputenc)                not set up for use with LaTeX.
+Package natbib Warning: Citation `Adams:2005dq' on page 2 undefined on input li
+ne 6.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 ...elds are identical within uncertainties.}
-                                                  
-? 
 
-./paper.tex:173: Package inputenc Error: Unicode character ∂ (U+2202)
-(inputenc)                not set up for use with LaTeX.
+Package natbib Warning: Citation `Adcox:2004mh' on page 2 undefined on input li
+ne 6.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 ...elds are identical within uncertainties.}
-                                                  
-? 
-[4 <./figures/corr1.pdf, page is rotated 90 degrees> <./figures/corr2.pdf, page
- is rotated 90 degrees> <./figures/corr3.pdf, page is rotated 90 degrees>]
-[5 <./figures/dp1.pdf, page is rotated 90 degrees> <./figures/dp2.pdf, page is 
-rotated 90 degrees> <./figures/dp3.pdf, page is rotated 90 degrees> <./figures/
-y.pdf, page is rotated 90 degrees> <./figures/corrl1.pdf, page is rotated 90 de
-grees> <./figures/corrl2.pdf, page is rotated 90 degrees>] [6 <./figures/dpy1.p
-df, page is rotated 90 degrees> <./figures/dpy2.pdf, page is rotated 90 degrees
-> <./figures/yl.pdf, page is rotated 90 degrees>] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
- [8
+
+Package natbib Warning: Citation `Arsene:2004fa' on page 2 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Back:2004je' on page 2 undefined on input lin
+e 6.
+
+
+Package natbib Warning: Citation `Abelev:2012di' on page 2 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Abelev:2014pua' on page 2 undefined on input 
+line 6.
+
+
+Package natbib Warning: Citation `ATLAS:2011ah' on page 2 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Romatschke:2007mq' on page 2 undefined on inp
+ut line 6.
+
+
+Package natbib Warning: Citation `Jeon:2015dfa' on page 2 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Romatschke:2017ejr' on page 2 undefined on in
+put line 6.
+
+
+Package natbib Warning: Citation `Niemi:2015qia' on page 2 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Bernhard:2016tnd' on page 2 undefined on inpu
+t line 6.
+
+
+Package natbib Warning: Citation `Bernhard2019' on page 2 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `ALICE:2016kpq' on page 2 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Acharya:2017gsw' on page 2 undefined on input
+ line 6.
+
+
+Package natbib Warning: Citation `Acharya:2017zfg' on page 2 undefined on input
+ line 6.
+
+
+Package natbib Warning: Citation `Acharya:2020taj' on page 2 undefined on input
+ line 6.
+
+
+Package natbib Warning: Citation `Aad:2015gqa' on page 2 undefined on input lin
+e 7.
+
+
+Package natbib Warning: Citation `Khachatryan:2015lva' on page 2 undefined on i
+nput line 7.
+
+
+Package natbib Warning: Citation `Khachatryan:2016txc' on page 2 undefined on i
+nput line 7.
+
+
+Package natbib Warning: Citation `Acharya:2019vdf' on page 2 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `Abelev:2012ola' on page 2 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `Aad:2014lta' on page 2 undefined on input lin
+e 7.
+
+
+Package natbib Warning: Citation `Aaboud:2016yar' on page 2 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `Khachatryan:2016ibd' on page 2 undefined on i
+nput line 7.
+
+
+Package natbib Warning: Citation `PHENIX:2018lia' on page 2 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `Aidala:2017ajz' on page 2 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `Poskanzer:1998yz' on page 2 undefined on inpu
+t line 11.
+
+
+Package natbib Warning: Citation `Voloshin:2008dg' on page 2 undefined on input
+ line 11.
+
+
+Package natbib Warning: Citation `Alver:2010gr' on page 2 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `Alver:2010dn' on page 2 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `ALICE:2011ab' on page 2 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `Gale:2012rq' on page 2 undefined on input lin
+e 11.
+
+
+Package natbib Warning: Citation `Niemi:2015qia' on page 2 undefined on input l
+ine 11.
+
+
+Package natbib Warning: Citation `Shen:2014vra' on page 2 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `Bernhard:2016tnd' on page 2 undefined on inpu
+t line 11.
+
+
+Package natbib Warning: Citation `Bernhard2019' on page 2 undefined on input li
+ne 11.
+
+
+Package natbib Warning: Citation `Dusling:2012cg' on page 2 undefined on input 
+line 14.
+
+
+Package natbib Warning: Citation `Bzdak:2013zma' on page 2 undefined on input l
+ine 14.
+
+
+Package natbib Warning: Citation `Ortiz:2013yxa' on page 2 undefined on input l
+ine 14.
+
+
+Package natbib Warning: Citation `Sarma:2019teo' on page 2 undefined on input l
+ine 14.
+
+
+Package natbib Warning: Citation `Arbuzov:2011yr' on page 2 undefined on input 
+line 14.
+
+
+Package natbib Warning: Citation `Weller:2017tsr' on page 2 undefined on input 
+line 14.
+
+
+Package natbib Warning: Citation `Zhao:2017rgg' on page 2 undefined on input li
+ne 14.
+
+
+Package natbib Warning: Citation `Greif:2017bnr' on page 2 undefined on input l
+ine 15.
+
+
+Package natbib Warning: Citation `Mantysaari:2017cni' on page 2 undefined on in
+put line 15.
+
+
+Package natbib Warning: Citation `Mantysaari:2017cni' on page 2 undefined on in
+put line 16.
+
+
+Package natbib Warning: Citation `Zhao:2020pty' on page 2 undefined on input li
+ne 17.
+
+
+Package natbib Warning: Citation `Greif:2019ygb' on page 2 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `Schenke:2019pmk' on page 2 undefined on input
+ line 18.
+
+
+Package natbib Warning: Citation `Acharya:2019vdf' on page 2 undefined on input
+ line 19.
+
+
+Package natbib Warning: Citation `Greif:2019ygb' on page 2 undefined on input l
+ine 19.
+
+
+Package natbib Warning: Citation `Strickland:2018exs' on page 2 undefined on in
+put line 21.
+
+
+Package natbib Warning: Citation `Loizides:2016tew' on page 2 undefined on inpu
+t line 21.
+
+
+Package natbib Warning: Citation `Nagle:2018nvi' on page 2 undefined on input l
+ine 21.
+
+
+Package natbib Warning: Citation `Khachatryan:2016odn' on page 2 undefined on i
+nput line 23.
+
+
+Package natbib Warning: Citation `Adam:2016jfp' on page 2 undefined on input li
+ne 23.
+
+
+Package natbib Warning: Citation `Adam:2016dau' on page 2 undefined on input li
+ne 23.
+
+
+Package natbib Warning: Citation `Acharya:2017okq' on page 2 undefined on input
+ line 23.
+
+
+Package natbib Warning: Citation `Adam:2016jfp' on page 2 undefined on input li
+ne 23.
+
+
+Package natbib Warning: Citation `Acharya:2018egz' on page 2 undefined on input
+ line 23.
+
+
+Package natbib Warning: Citation `Aaboud:2019mcw' on page 2 undefined on input 
+line 27.
+
+
+Package natbib Warning: Citation `Frankfurt:2003td' on page 2 undefined on inpu
+t line 28.
+
+
+Package natbib Warning: Citation `Bierlich:2017vhg' on page 2 undefined on inpu
+t line 29.
+
+
+Package natbib Warning: Citation `Khachatryan:2016txc' on page 2 undefined on i
+nput line 29.
+
+
+Package natbib Warning: Citation `Bierlich:2019ixq' on page 2 undefined on inpu
+t line 30.
+
+[2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
- (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+
+LaTeX Warning: Reference `sec:ana' on page 3 undefined on input line 42.
+
+) (./sec_ana.tex
+
+Package natbib Warning: Citation `ALICEdet' on page 3 undefined on input line 6
+.
+
+
+Package natbib Warning: Citation `VZEROpaper' on page 3 undefined on input line
+ 6.
+
+
+Package natbib Warning: Citation `ITSpaper' on page 3 undefined on input line 6
+.
+
+
+Package natbib Warning: Citation `TPCpaper' on page 3 undefined on input line 6
+.
+
+
+Overfull \hbox (1.99216pt too wide) in paragraph at lines 17--18
+\OT1/ptm/m/n/10.95 as as-so-ci-ated yield per trig-ger par-ti-cle as func-tion 
+of $\OT1/ztmcm/m/n/10.95 ^^A\OML/ztmcm/m/it/10.95 ^^Q$ \OT1/ptm/m/n/10.95 and $
+\OT1/ztmcm/m/n/10.95 ^^A\OML/ztmcm/m/it/10.95 '$ \OT1/ptm/m/n/10.95 with a give
+n trans-verse momentum($\OT1/ptm/m/it/10.95 p[]$\OT1/ptm/m/n/10.95 ,
+ []
+
+[3]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./sec_results.tex [4]
+<./figures/corr1.pdf, id=81, 569.12625pt x 410.53375pt>
+File: ./figures/corr1.pdf Graphic file (type pdf)
+<use ./figures/corr1.pdf>
+Package pdftex.def Info: ./figures/corr1.pdf  used on input line 11.
+(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
+<./figures/corr2.pdf, id=82, 569.12625pt x 410.53375pt>
+File: ./figures/corr2.pdf Graphic file (type pdf)
+<use ./figures/corr2.pdf>
+Package pdftex.def Info: ./figures/corr2.pdf  used on input line 12.
+(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
+<./figures/corr3.pdf, id=83, 569.12625pt x 410.53375pt>
+File: ./figures/corr3.pdf Graphic file (type pdf)
+<use ./figures/corr3.pdf>
+Package pdftex.def Info: ./figures/corr3.pdf  used on input line 13.
+(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
+<./figures/dp1.pdf, id=84, 569.12625pt x 410.53375pt>
+File: ./figures/dp1.pdf Graphic file (type pdf)
+<use ./figures/dp1.pdf>
+Package pdftex.def Info: ./figures/dp1.pdf  used on input line 25.
+(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
+<./figures/dp2.pdf, id=85, 569.12625pt x 410.53375pt>
+File: ./figures/dp2.pdf Graphic file (type pdf)
+<use ./figures/dp2.pdf>
+Package pdftex.def Info: ./figures/dp2.pdf  used on input line 26.
+(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
+<./figures/dp3.pdf, id=86, 569.12625pt x 410.53375pt>
+File: ./figures/dp3.pdf Graphic file (type pdf)
+<use ./figures/dp3.pdf>
+Package pdftex.def Info: ./figures/dp3.pdf  used on input line 27.
+(pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
+<./figures/Fig1_RidgeYield.pdf, id=87, 569.12625pt x 398.48875pt>
+File: ./figures/Fig1_RidgeYield.pdf Graphic file (type pdf)
+<use ./figures/Fig1_RidgeYield.pdf>
+Package pdftex.def Info: ./figures/Fig1_RidgeYield.pdf  used on input line 34.
+(pdftex.def)             Requested size: 318.66946pt x 223.13393pt.
+
+
+Package natbib Warning: Citation `ridge_pp_1' on page 5 undefined on input line
+ 35.
+
+
+Package natbib Warning: Citation `ridge_pp_1' on page 5 undefined on input line
+ 35.
+
+<./figures/corrl1.pdf, id=88, 569.12625pt x 410.53375pt>
+File: ./figures/corrl1.pdf Graphic file (type pdf)
+<use ./figures/corrl1.pdf>
+Package pdftex.def Info: ./figures/corrl1.pdf  used on input line 41.
+(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
+<./figures/corrl2.pdf, id=89, 569.12625pt x 410.53375pt>
+File: ./figures/corrl2.pdf Graphic file (type pdf)
+<use ./figures/corrl2.pdf>
+Package pdftex.def Info: ./figures/corrl2.pdf  used on input line 42.
+(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
+<./figures/dpy1.pdf, id=90, 569.12625pt x 410.53375pt>
+File: ./figures/dpy1.pdf Graphic file (type pdf)
+<use ./figures/dpy1.pdf>
+Package pdftex.def Info: ./figures/dpy1.pdf  used on input line 49.
+(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
+<./figures/dpy2.pdf, id=91, 569.12625pt x 410.53375pt>
+File: ./figures/dpy2.pdf Graphic file (type pdf)
+<use ./figures/dpy2.pdf>
+Package pdftex.def Info: ./figures/dpy2.pdf  used on input line 50.
+(pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
+<./figures/Fig2_RidgeYield_Esel_py.pdf, id=92, 402.6261pt x 247.60335pt>
+File: ./figures/Fig2_RidgeYield_Esel_py.pdf Graphic file (type pdf)
+<use ./figures/Fig2_RidgeYield_Esel_py.pdf>
+Package pdftex.def Info: ./figures/Fig2_RidgeYield_Esel_py.pdf  used on input l
+ine 57.
+(pdftex.def)             Requested size: 364.19664pt x 223.96683pt.
+[5 <./figures/corr1.pdf, page is rotated 90 degrees> <./figures/corr2.pdf, page
+ is rotated 90 degrees> <./figures/corr3.pdf, page is rotated 90 degrees>]
+[6 <./figures/dp1.pdf, page is rotated 90 degrees> <./figures/dp2.pdf, page is 
+rotated 90 degrees> <./figures/dp3.pdf, page is rotated 90 degrees> <./figures/
+Fig1_RidgeYield.pdf, page is rotated 90 degrees> <./figures/corrl1.pdf, page is
+ rotated 90 degrees> <./figures/corrl2.pdf, page is rotated 90 degrees>]
+[7 <./figures/dpy1.pdf, page is rotated 90 degrees> <./figures/dpy2.pdf, page i
+s rotated 90 degrees> <./figures/Fig2_RidgeYield_Esel_py.pdf>])
+(./sec_summary.tex) [8]
+No file paper.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+(./paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: FDD2532D7F8E3CEF49F2D5D22018DE78;349.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 7622 strings out of 492616
- 108080 string characters out of 6129482
- 208709 words of memory out of 5000000
- 11329 multiletter control sequences out of 15000+600000
- 47854 words of font info for 108 fonts, out of 8000000 for 9000
+ 7590 strings out of 492616
+ 107535 string characters out of 6129482
+ 209759 words of memory out of 5000000
+ 11292 multiletter control sequences out of 15000+600000
+ 50669 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,13n,45p,3509b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,13n,45p,1111b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -678,10 +971,10 @@ dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on paper.pdf (8 pages, 831790 bytes).
+Output written on paper.pdf (8 pages, 848757 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
+ 38 named destinations out of 1000 (max. 500000)
  127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
