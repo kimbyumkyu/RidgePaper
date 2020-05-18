@@ -14,27 +14,31 @@ The multiplicity class used in the present analysis is top 0-0.1\%, which denote
 \section{Analysis Procedure}
 \label{sec:na}
 
-The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudo rapidity($\Delta\eta$) and azimuthal angle($\Delta\varphi$). The following equation expresses the correlation as associated yield per trigger particle as function of $\Delta\eta$ and $\Delta\varphi$ with a given transverse momentum($\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particle and associated particle with the notation of $\it{p}_{\rm{T, trig}} > \it{p}_{\rm{T, assoc}}$.
+The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudo rapidity($\Delta\eta$) and azimuthal angle($\Delta\varphi$). The following equation expresses the angular correlation function as associated yield per trigger particle as function of $\Delta\eta$ and $\Delta\varphi$ with a given transverse momentum($\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particles and associated particles.
+%with the notation of $\it{p}_{\rm{T, trig}} > \it{p}_{\rm{T, assoc}}$.
 \begin{eqnarray}
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)},
 \end{eqnarray}
-where the $N_{\rm{trig}}$ is the number of trigger particles in the corresponding event class. The signal distribution $S(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in the same event and the background distribution $B(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in mixed 10 events having the same primary vertex and belonging to the same multiplicity class.
+where the $N_{\rm{trig}}$ is the number of trigger particles in the corresponding event class. The signal distribution $S(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in the same event and the background distribution $B(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in mixed events having the same primary vertex and belonging to the same multiplicity class.
 
 The quantitative study of ridge is done with $\Delta\varphi$ distribution at large $\Delta\eta$ to achieve direct comparison of ridges between different event classes and transverse momentum intervals. The large $\Delta\eta$ range is defined as 1.6$<|\Delta\eta|<$1.8, which allows non-flow effects, mainly coming from the jet, not to contribute to the $\Delta\varphi$ distribution.
 \begin{eqnarray}
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } = \int_{|\Delta \eta|>1.6} \rm{d} \Delta \eta \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta \rm{d}\Delta\varphi}
 \end{eqnarray}
-The baseline of the correlations is subtracted by implementing Zero-Yield-At-Minimum (ZYAM) procedure. The minimum yield ($C_{\rm{ZYAM}}$) at the minimum $\Delta\varphi$($\Delta\varphi_{\rm{min}}$) of the $\Delta\varphi$ distribution are obtained from the function, which fits the $\Delta\varphi$ distribution with Fourier series up to the third harmonic. Subtracting $C_{\rm{ZYAM}}$ from the $\Delta\varphi$ distribution makes the yield at $\Delta\varphi_{\rm{min}}$ zero in order to take into consideration the major combinatorial correlations to be rejected. The associated yield of the ridge($Y^{\rm{assoc}}$) is obtained by integrating the near-side peak of the $\Delta\varphi$ distribution over $|\Delta\varphi|<|\Delta\varphi_{\rm{min}}|$ after ZYAM.
+The baseline of the correlations is subtracted by implementing Zero-Yield-At-Minimum (ZYAM) procedure. The minimum yield ($C_{\rm{ZYAM}}$) at the minimum $\Delta\varphi$($\Delta\varphi_{\rm{min}}$) of the $\Delta\varphi$ distribution are obtained from the function, which fits the $\Delta\varphi$ distribution with Fourier series up to the third harmonic. Subtracting $C_{\rm{ZYAM}}$ from the $\Delta\varphi$ distribution makes the yield at $\Delta\varphi_{\rm{min}}$ zero in order to describe the shape to find the minimum to be used for integral of the yield. The associated yield of the ridge($Y^{\rm{assoc}}$) is obtained by integrating the near-side peak of the $\Delta\varphi$ distribution over $|\Delta\varphi|<|\Delta\varphi_{\rm{min}}|$ after ZYAM.
 \begin{eqnarray}
 Y^{\rm{assoc}} = \int_{|\Delta \varphi| < |\Delta\varphi_{\rm{min}}| } \rm{d} \Delta\varphi \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } 
 \end{eqnarray}
 
-The ridge yield is further studied with various event selections regarding hard processes. The event selection is applied by requiring minimum transverse momentum of leading track or jet reconstructed in the mid-rapidity, where the leading track is accepted within $|\Delta\eta|<0.9$ and reconstructed jet, which are made with anti-$k_{T}$ algorithm with cone radius as 0.4, is accepted within $|\Delta\eta|<0.4$. The high $\it{p}_{\rm{T}}$ track and jet mostly generated from the hard scatterings in the initial collisions of hadrons so that tagging of events with transverse momentum of leading track or jet allows us to access to the high momentum transfer. 
+The ridge yield is further studied with various event selections regarding hard processes. The event selection is applied by requiring minimum transverse momentum of leading track or jet reconstructed in the mid-rapidity. The leading track is accepted within $|\Delta\eta|<0.9$ and reconstructed jet, which are made with anti-$k_{\rm{T}}$ algorithm with cone radius as 0.4, is accepted within $|\Delta\eta|<0.4$. The high $\it{p}_{\rm{T}}$ track and jet mostly generated from the hard scatterings in the initial collisions of hadrons so that tagging of events with transverse momentum of leading track or jet allows us to access to the high momentum transfer from the collisions to the initial partons.
 
 Monte Carlo simulation with PYTHIA8 event generator and with particle transport through the detector using GEANT simulation has been used to estimate the charged single particle efficiency and the contamination from the non-primary particle. The corrections have been tested by comparing the distributions, which are constructed with generated true particles and reconstructed particles with detector responses. The several percentage of non-closure has been considered into systematic uncertainty.
 
 \section{Systematic Uncertainty}
 \label{sec:uncertainties}
+
+
+
 The background distribution is constructed using several events having same primary vertex. The effect of construction of background distribution is estimated by varying the primary vertex interval from 2 cm to 1 cm. The estimated effect is 6-10\%.
 
 The $\Delta\eta$ projection range for construction of long-range $\Delta\varphi$ is sensitive to contamination of non-flow effect. The effect of  $\Delta\eta$ projection range is estimated by varying the projection range. The estimated effect is 10-15\% for $\it{p}_{\rm{T}}>$1.0 GeV/\it{c}\rm{} and 20\% for 0.5$<\it{p}_{\rm{T}}<$1.0 GeV/\it{c}\rm{}. 

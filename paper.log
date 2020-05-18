@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  6 MAY 2020 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  6 MAY 2020 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -828,19 +828,23 @@ LaTeX Warning: Reference `sec:ana' on page 3 undefined on input line 42.
 
 ) (./sec_ana.tex
 
-Package natbib Warning: Citation `ALICEdet' on page 3 undefined on input line 6
+Package natbib Warning: Citation `Aamodt:2008zz' on page 3 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Abelev:2014ffa' on page 3 undefined on input 
+line 6.
+
+
+Package natbib Warning: Citation `Abbas:2013taa' on page 3 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `aliceITS' on page 3 undefined on input line 6
 .
 
 
-Package natbib Warning: Citation `VZEROpaper' on page 3 undefined on input line
- 6.
-
-
-Package natbib Warning: Citation `ITSpaper' on page 3 undefined on input line 6
-.
-
-
-Package natbib Warning: Citation `TPCpaper' on page 3 undefined on input line 6
+Package natbib Warning: Citation `aliceTPC' on page 3 undefined on input line 6
 .
 
 
@@ -971,7 +975,7 @@ dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on paper.pdf (8 pages, 848757 bytes).
+Output written on paper.pdf (8 pages, 848806 bytes).
 PDF statistics:
  733 PDF objects out of 1000 (max. 8388607)
  345 compressed objects within 4 object streams
