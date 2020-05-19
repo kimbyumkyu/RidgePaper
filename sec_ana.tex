@@ -12,7 +12,7 @@ The responsibility of reconstruction of charged track is up to the ITS and the T
 The multiplicity class used in the present analysis is top 0-0.1\%, which denotes the most particle-abundant events including  $\sim$31 charged particles in the mid-rapidity region($|\eta|<$0.5). This analysis uses charged particles, whose reconstructed transverse momenta are larger than 0.2 GeV/\it{c}\rm{} in a fiducial region as $|\eta|<$0.9. 
 
 \section{Analysis Procedure}
-\label{sec:na}
+\label{sec:an}
 
 The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudo rapidity($\Delta\eta$) and azimuthal angle($\Delta\varphi$). The following equation expresses the angular correlation function as associated yield per trigger particle as function of $\Delta\eta$ and $\Delta\varphi$ with a given transverse momentum($\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particles and associated particles.
 %with the notation of $\it{p}_{\rm{T, trig}} > \it{p}_{\rm{T, assoc}}$.
@@ -30,14 +30,34 @@ The baseline of the correlations is subtracted by implementing Zero-Yield-At-Min
 Y^{\rm{assoc}} = \int_{|\Delta \varphi| < |\Delta\varphi_{\rm{min}}| } \rm{d} \Delta\varphi \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } 
 \end{eqnarray}
 
-The ridge yield is further studied with various event selections regarding hard processes. The event selection is applied by requiring minimum transverse momentum of leading track or jet reconstructed in the mid-rapidity. The leading track is accepted within $|\Delta\eta|<0.9$ and reconstructed jet, which are made with anti-$k_{\rm{T}}$ algorithm with cone radius as 0.4, is accepted within $|\Delta\eta|<0.4$. The high $\it{p}_{\rm{T}}$ track and jet mostly generated from the hard scatterings in the initial collisions of hadrons so that tagging of events with transverse momentum of leading track or jet allows us to access to the high momentum transfer from the collisions to the initial partons.
+The ridge yield is further studied with various event selections regarding hard processes. The event selection is applied by requiring minimum transverse momentum of leading track or jet reconstructed in the mid-rapidity. The leading track is accepted within $|\Delta\eta|<0.9$ and reconstructed jet, which are made with anti-$k_{\rm{T}}$ algorithm with cone radius as 0.4, is accepted within $|\Delta\eta|<0.4$. The transverse momentum of jet is also corrected with underlying event density($\rho \cdot A$). The high $\it{p}_{\rm{T}}$ track and jet mostly generated from the hard scatterings in the initial collisions of hadrons so that tagging of events with transverse momentum of leading track or jet allows us to access to the high momentum transfer from the collisions to the initial partons.
 
-Monte Carlo simulation with PYTHIA8 event generator and with particle transport through the detector using GEANT simulation has been used to estimate the charged single particle efficiency and the contamination from the non-primary particle. The corrections have been tested by comparing the distributions, which are constructed with generated true particles and reconstructed particles with detector responses. The several percentage of non-closure has been considered into systematic uncertainty.
+Monte Carlo simulation with PYTHIA8 event generator and with particle transport through the detector using GEANT simulation has been used to estimate the charged single particle efficiency and the contamination from the non-primary particle. 
+
+%The corrections have been tested by comparing the distributions, which are constructed with generated true particles and reconstructed particles with detector responses. The several percentage of non-closure has been considered into systematic uncertainty.
 
 \section{Systematic Uncertainty}
 \label{sec:uncertainties}
+The systematic uncertainty is evaluated by varying the event selection, track selection, yield extraction procedures and efficiency correction. Each source is separated into individual parts. The uncertainty from the event selection can be divided into Pile-up rejection and primary vertex selection. The uncertainty from the track selection is estimated by changing the selection criteria. The uncertainty from the yield extraction procedures can be divided into long-range definition and ZYAM procedure. The uncertainty from the efficiency correction is estimated by enlarging the event mixing bins, which is relevant to acceptance correction. Finally, The uncertainty from the application of track efficiency correction is estimated comparing the results constructed by efficiency corrected tracks with the results constructed by true particles.
 
+\begin{table}[!h]
+\caption{ The relative systematic uncertainty(\%) of the associated yield spectrum as function of $(\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}})$(second), $\it{p}_{\rm{T,Lead}}$(thrid) or $\it{p}_{\rm{T,jet}}$(fourth) selection in high multiplicity(0-0.1\%) }
+\centering
+\begin{tabular}{|c|<{\centering}m{8em}|<{\centering}m{6em}|<{\centering}m{6em}|}
+\hline 
+Sources & Uncertainty $Y^{\rm{assoc}}(\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}})$ & Uncertainty $Y^{\rm{assoc}}(\it{p}_{\rm{T, Lead}})$ & Uncertainty $Y^{\rm{assoc}}(\it{p}_{\rm{T, Jet}})$ \\ \hline \hline
+Mixing			& $\sim$4.4	&2-8		&1-16	\\ \hline
+Pileup			& $\sim$0.8	&0-4		&0-4		\\ \hline
+Tracking			& $\sim$4.0 	&2		&2		\\ \hline
+Primary Vertex		& $\sim$2.4	&1-12	&1-8		\\ \hline
+ZYAM			& $\sim$5.1	&2		&2		\\ \hline
+$\Delta\eta$ range	& $\sim$4.5	&3-7		&3-9		\\ \hline
+M.C. non-closure	& $\sim$2.5 	&1		&1		\\ \hline
+Total 			& $\sim$9.7	&4-16	&4-22	\\ 
+\hline 
+\end{tabular}
 
+\end{table}
 
 The background distribution is constructed using several events having same primary vertex. The effect of construction of background distribution is estimated by varying the primary vertex interval from 2 cm to 1 cm. The estimated effect is 6-10\%.
 
@@ -46,6 +66,8 @@ The $\Delta\eta$ projection range for construction of long-range $\Delta\varphi$
 The M.C. closure test for efficiency correction results in $\sim$4\% discrepancy. The discrepancy is considered into systematic uncertainty.
 
 The effect of primary vertex selection along the beam axis is estimated by varying the selection range of primary vertex from $|z_{vtx}|<$ 8 cm to $|z_{vtx}|<$ 6 cm. The estimated effect is $\sim$4\%. The effect of rejection of pile-up events. is estimated by varying the methodology of pile-up rejection. The estimated effect is $\sim$4\%. The effect of track selection is estimated by varying a few selection criteria included in track selection.The estimated effect is $\sim$5\%. 
+
+\iffalse
 
 
 \begin{table}[!h]
@@ -66,6 +88,8 @@ Total & 14-20\% \\
 \end{tabular}
 %\caption{ Definition of multiplicity class in this analysis. Reference definition of multiplicity coud be found in the following link; \url{https://twiki.cern.ch/twiki/bin/viewauth/ALICE/ReferenceMult}  }
 \end{table}
+\fi
+
 
 
 

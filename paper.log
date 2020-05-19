@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  6 MAY 2020 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.4)  19 MAY 2020 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,19 +847,70 @@ Package natbib Warning: Citation `aliceITS' on page 3 undefined on input line 6
 Package natbib Warning: Citation `aliceTPC' on page 3 undefined on input line 6
 .
 
-
-Overfull \hbox (1.99216pt too wide) in paragraph at lines 17--18
-\OT1/ptm/m/n/10.95 as as-so-ci-ated yield per trig-ger par-ti-cle as func-tion 
-of $\OT1/ztmcm/m/n/10.95 ^^A\OML/ztmcm/m/it/10.95 ^^Q$ \OT1/ptm/m/n/10.95 and $
-\OT1/ztmcm/m/n/10.95 ^^A\OML/ztmcm/m/it/10.95 '$ \OT1/ptm/m/n/10.95 with a give
-n trans-verse momentum($\OT1/ptm/m/it/10.95 p[]$\OT1/ptm/m/n/10.95 ,
+[3]
+Underfull \hbox (badness 2644) in paragraph at lines 44--44
+[]\OT1/ptm/b/n/10 Table 1: [] \OT1/ptm/m/n/10 The rel-a-tive sys-tem-atic un-ce
+r-tainty(%) of the as-so-ci-ated yield spec-trum as func-tion of
  []
 
-[3]
+
+./sec_ana.tex:46: Package array Error: <{..} at wrong position: changed to !{..
+}.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...|<{\centering}m{6em}|<{\centering}m{6em}|}
+                                                  
+? 
+
+./sec_ana.tex:46: Package array Error: <{..} at wrong position: changed to !{..
+}.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...|<{\centering}m{6em}|<{\centering}m{6em}|}
+                                                  
+? 
+
+./sec_ana.tex:46: Package array Error: <{..} at wrong position: changed to !{..
+}.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...|<{\centering}m{6em}|<{\centering}m{6em}|}
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\OT1/ptm/m/n/10.95 Uncertainty
+ []
+
+
+Overfull \hbox (5.71953pt too wide) in paragraph at lines 48--48
+\OML/ztmcm/m/it/10.95 Y[]\OT1/ztmcm/m/n/10.95 (\OT1/ptm/m/it/10.95 p[]\OML/ztmc
+m/m/it/10.95 ;  \OT1/ptm/m/it/10.95 p[]\OT1/ztmcm/m/n/10.95 )$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\OT1/ptm/m/n/10.95 Uncertainty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\OT1/ptm/m/n/10.95 Uncertainty
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./sec_results.tex [4]
+[4]) (./sec_results.tex
 <./figures/corr1.pdf, id=81, 569.12625pt x 410.53375pt>
 File: ./figures/corr1.pdf Graphic file (type pdf)
 <use ./figures/corr1.pdf>
@@ -875,70 +926,70 @@ File: ./figures/corr3.pdf Graphic file (type pdf)
 <use ./figures/corr3.pdf>
 Package pdftex.def Info: ./figures/corr3.pdf  used on input line 13.
 (pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/dp1.pdf, id=84, 569.12625pt x 410.53375pt>
+ [5 <./figures/corr1.pdf, page is rotated 90 degrees> <./figures/corr2.pdf, pag
+e is rotated 90 degrees> <./figures/corr3.pdf, page is rotated 90 degrees>]
+<./figures/dp1.pdf, id=223, 569.12625pt x 410.53375pt>
 File: ./figures/dp1.pdf Graphic file (type pdf)
 <use ./figures/dp1.pdf>
 Package pdftex.def Info: ./figures/dp1.pdf  used on input line 25.
 (pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/dp2.pdf, id=85, 569.12625pt x 410.53375pt>
+<./figures/dp2.pdf, id=224, 569.12625pt x 410.53375pt>
 File: ./figures/dp2.pdf Graphic file (type pdf)
 <use ./figures/dp2.pdf>
 Package pdftex.def Info: ./figures/dp2.pdf  used on input line 26.
 (pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/dp3.pdf, id=86, 569.12625pt x 410.53375pt>
+<./figures/dp3.pdf, id=225, 569.12625pt x 410.53375pt>
 File: ./figures/dp3.pdf Graphic file (type pdf)
 <use ./figures/dp3.pdf>
 Package pdftex.def Info: ./figures/dp3.pdf  used on input line 27.
 (pdftex.def)             Requested size: 141.12454pt x 101.80003pt.
-<./figures/Fig1_RidgeYield.pdf, id=87, 569.12625pt x 398.48875pt>
+<./figures/Fig1_RidgeYield.pdf, id=226, 569.12625pt x 398.48875pt>
 File: ./figures/Fig1_RidgeYield.pdf Graphic file (type pdf)
 <use ./figures/Fig1_RidgeYield.pdf>
 Package pdftex.def Info: ./figures/Fig1_RidgeYield.pdf  used on input line 34.
 (pdftex.def)             Requested size: 318.66946pt x 223.13393pt.
 
 
-Package natbib Warning: Citation `ridge_pp_1' on page 5 undefined on input line
+Package natbib Warning: Citation `ridge_pp_1' on page 6 undefined on input line
  35.
 
 
-Package natbib Warning: Citation `ridge_pp_1' on page 5 undefined on input line
+Package natbib Warning: Citation `ridge_pp_1' on page 6 undefined on input line
  35.
 
-<./figures/corrl1.pdf, id=88, 569.12625pt x 410.53375pt>
+<./figures/corrl1.pdf, id=227, 569.12625pt x 410.53375pt>
 File: ./figures/corrl1.pdf Graphic file (type pdf)
 <use ./figures/corrl1.pdf>
 Package pdftex.def Info: ./figures/corrl1.pdf  used on input line 41.
 (pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/corrl2.pdf, id=89, 569.12625pt x 410.53375pt>
+<./figures/corrl2.pdf, id=228, 569.12625pt x 410.53375pt>
 File: ./figures/corrl2.pdf Graphic file (type pdf)
 <use ./figures/corrl2.pdf>
 Package pdftex.def Info: ./figures/corrl2.pdf  used on input line 42.
 (pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/dpy1.pdf, id=90, 569.12625pt x 410.53375pt>
+<./figures/dpy1.pdf, id=229, 569.12625pt x 410.53375pt>
 File: ./figures/dpy1.pdf Graphic file (type pdf)
 <use ./figures/dpy1.pdf>
 Package pdftex.def Info: ./figures/dpy1.pdf  used on input line 49.
 (pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/dpy2.pdf, id=91, 569.12625pt x 410.53375pt>
+<./figures/dpy2.pdf, id=230, 569.12625pt x 410.53375pt>
 File: ./figures/dpy2.pdf Graphic file (type pdf)
 <use ./figures/dpy2.pdf>
 Package pdftex.def Info: ./figures/dpy2.pdf  used on input line 50.
 (pdftex.def)             Requested size: 182.09485pt x 131.35469pt.
-<./figures/Fig2_RidgeYield_Esel_py.pdf, id=92, 402.6261pt x 247.60335pt>
+<./figures/Fig2_RidgeYield_Esel_py.pdf, id=231, 402.6261pt x 247.60335pt>
 File: ./figures/Fig2_RidgeYield_Esel_py.pdf Graphic file (type pdf)
 <use ./figures/Fig2_RidgeYield_Esel_py.pdf>
 Package pdftex.def Info: ./figures/Fig2_RidgeYield_Esel_py.pdf  used on input l
 ine 57.
 (pdftex.def)             Requested size: 364.19664pt x 223.96683pt.
-[5 <./figures/corr1.pdf, page is rotated 90 degrees> <./figures/corr2.pdf, page
- is rotated 90 degrees> <./figures/corr3.pdf, page is rotated 90 degrees>]
 [6 <./figures/dp1.pdf, page is rotated 90 degrees> <./figures/dp2.pdf, page is 
 rotated 90 degrees> <./figures/dp3.pdf, page is rotated 90 degrees> <./figures/
-Fig1_RidgeYield.pdf, page is rotated 90 degrees> <./figures/corrl1.pdf, page is
- rotated 90 degrees> <./figures/corrl2.pdf, page is rotated 90 degrees>]
-[7 <./figures/dpy1.pdf, page is rotated 90 degrees> <./figures/dpy2.pdf, page i
-s rotated 90 degrees> <./figures/Fig2_RidgeYield_Esel_py.pdf>])
-(./sec_summary.tex) [8]
+Fig1_RidgeYield.pdf, page is rotated 90 degrees>] [7 <./figures/corrl1.pdf, pag
+e is rotated 90 degrees> <./figures/corrl2.pdf, page is rotated 90 degrees> <./
+figures/dpy1.pdf, page is rotated 90 degrees> <./figures/dpy2.pdf, page is rota
+ted 90 degrees> <./figures/Fig2_RidgeYield_Esel_py.pdf>]) (./sec_summary.tex)
+[8]
 No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -957,11 +1008,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 7590 strings out of 492616
- 107535 string characters out of 6129482
- 209759 words of memory out of 5000000
+ 7593 strings out of 492616
+ 107553 string characters out of 6129482
+ 211759 words of memory out of 5000000
  11292 multiletter control sequences out of 15000+600000
- 50669 words of font info for 112 fonts, out of 8000000 for 9000
+ 52533 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,13n,45p,1111b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -975,7 +1026,7 @@ dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on paper.pdf (8 pages, 848806 bytes).
+Output written on paper.pdf (8 pages, 850407 bytes).
 PDF statistics:
  733 PDF objects out of 1000 (max. 8388607)
  345 compressed objects within 4 object streams
