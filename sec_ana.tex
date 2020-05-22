@@ -18,12 +18,12 @@ The multiplicity class used in the present analysis is top 0-0.1\%, which denote
 \label{sec:an}
 >>>>>>> 3ee63cb8159669d8fb94352bbf3a3eefc31b57fa
 
-The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudo rapidity($\Delta\eta$) and azimuthal angle($\Delta\varphi$). The following equation expresses the angular correlation function as associated yield per trigger particle as function of $\Delta\eta$ and $\Delta\varphi$ with a given transverse momentum($\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particles and associated particles.
+The two-particle correlation between trigger particle and associated particle is measured as function of relative pseudo rapidity($\Delta\eta$) and azimuthal angle($\Delta\varphi$). The following equation expresses the correlation function as associated yield per trigger particle as function of $\Delta\eta$ and $\Delta\varphi$ with a given transverse momentum($\it{p}_{\rm{T, trig}}$, $\it{p}_{\rm{T, assoc}}$) of trigger particles and associated particles.
 %with the notation of $\it{p}_{\rm{T, trig}} > \it{p}_{\rm{T, assoc}}$.
 \begin{eqnarray}
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)},
 \end{eqnarray}
-where the $N_{\rm{trig}}$ is the number of trigger particles in the corresponding event class. The signal distribution $S(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in the same event and the background distribution $B(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in mixed events having the same primary vertex and belonging to the same multiplicity class.
+where the $N_{\rm{trig}}$ is the number of trigger particles in the corresponding multiplicity class. The signal distribution $S(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in the same event and the background distribution $B(\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlation in mixed events having the same primary vertex and belonging to the same multiplicity class considering the change of acceptance effect with respect to the multiplicity class and primary vertex.
 
 The quantitative study of ridge is done with $\Delta\varphi$ distribution at large $\Delta\eta$ to achieve direct comparison of ridges between different event classes and transverse momentum intervals. The large $\Delta\eta$ range is defined as 1.6$<|\Delta\eta|<$1.8, which allows non-flow effects, mainly coming from the jet, not to contribute to the $\Delta\varphi$ distribution.
 \begin{eqnarray}
@@ -42,34 +42,45 @@ Monte Carlo simulation with PYTHIA8 event generator and with particle transport 
 
 \section{Systematic Uncertainty}
 \label{sec:uncertainties}
-The systematic uncertainty is evaluated by varying the event selection, track selection, yield extraction procedures and efficiency correction. Each source is separated into individual parts. The uncertainty from the event selection can be divided into Pile-up rejection and primary vertex selection. The uncertainty from the track selection is estimated by changing the selection criteria. The uncertainty from the yield extraction procedures can be divided into long-range definition and ZYAM procedure. The uncertainty from the efficiency correction is estimated by enlarging the event mixing bins, which is relevant to acceptance correction. Finally, The uncertainty from the application of track efficiency correction is estimated comparing the results constructed by efficiency corrected tracks with the results constructed by true particles.
-
+The systematic uncertainty is evaluated by varying the event selection, track selection, yield extraction procedures and efficiency correction. Each source is separated into individual parts. The uncertainty from the event selection can be divided into Pile-up rejection and primary vertex selection. The uncertainty from the track selection is estimated by changing the selection criteria. The uncertainty from the yield extraction procedures can be divided into long-range definition and ZYAM procedure. The uncertainty from the efficiency correction is estimated by enlarging the event mixing bins, which is relevant to acceptance correction. Finally, The uncertainty from the application of track efficiency correction is estimated comparing the results constructed by efficiency corrected tracks with the results constructed by true particles. The uncertainty of $Y^{\rm{assoc}}(\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}})$ is summarized by averaging the each uncertainty for a given $\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}}$. The uncertainty of $Y^{\rm{assoc}}(\it{p}_{\rm{T, Lead}})$ or $Y^{\rm{assoc}}(\it{p}_{\rm{T, Jet}})$ is summarized by averaging the each uncertainty for a given $\it{p}_{\rm{T, Lead}}$ or $\it{p}_{\rm{T, Jet}}$ selection.
 \begin{table}[!h]
 \caption{ The relative systematic uncertainty(\%) of the associated yield spectrum as function of $(\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}})$(second), $\it{p}_{\rm{T,Lead}}$(thrid) or $\it{p}_{\rm{T,jet}}$(fourth) selection in high multiplicity(0-0.1\%) }
 \centering
 \begin{tabular}{|c|<{\centering}m{8em}|<{\centering}m{6em}|<{\centering}m{6em}|}
 \hline 
 Sources & Uncertainty $Y^{\rm{assoc}}(\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}})$ & Uncertainty $Y^{\rm{assoc}}(\it{p}_{\rm{T, Lead}})$ & Uncertainty $Y^{\rm{assoc}}(\it{p}_{\rm{T, Jet}})$ \\ \hline \hline
-Mixing			& $\sim$4.4	&2-8		&1-16	\\ \hline
-Pileup			& $\sim$0.8	&0-4		&0-4		\\ \hline
-Tracking			& $\sim$4.0 	&2		&2		\\ \hline
+Pileup cut			& $\sim$0.8	&0-4		&0-4		\\ \hline
 Primary Vertex		& $\sim$2.4	&1-12	&1-8		\\ \hline
+
+Tracking			& $\sim$4.0 	&2		&2		\\ \hline
+
 ZYAM			& $\sim$5.1	&2		&2		\\ \hline
 $\Delta\eta$ range	& $\sim$4.5	&3-7		&3-9		\\ \hline
-M.C. non-closure	& $\sim$2.5 	&1		&1		\\ \hline
+
+Mixing			& $\sim$4.4	&2-8		&1-16	\\ \hline
+
+M.C. non-closure*	& $\sim$2.5 	&1		&1		\\ \hline
 Total 			& $\sim$9.7	&4-16	&4-22	\\ 
 \hline 
 \end{tabular}
 
 \end{table}
 
-The background distribution is constructed using several events having same primary vertex. The effect of construction of background distribution is estimated by varying the primary vertex interval from 2 cm to 1 cm. The estimated effect is 6-10\%.
+The uncertainty from the pileup rejection is estimated by inspecting the changes of results with different rejection methodologies from the default one. The estimated uncertainty is 1\% without $\it{p}_{\rm{T, Lead}}$ or $\it{p}_{\rm{T, Jet}}$ selection. The uncertainty is increased up to 4\% with $\it{p}_{\rm{T, Lead}}$ or $\it{p}_{\rm{T, Jet}}$ selection.
 
-The $\Delta\eta$ projection range for construction of long-range $\Delta\varphi$ is sensitive to contamination of non-flow effect. The effect of  $\Delta\eta$ projection range is estimated by varying the projection range. The estimated effect is 10-15\% for $\it{p}_{\rm{T}}>$1.0 GeV/\it{c}\rm{} and 20\% for 0.5$<\it{p}_{\rm{T}}<$1.0 GeV/\it{c}\rm{}. 
+The uncertainty from the primary vertex selection along the beam axis is estimated by varying the selection range of primary vertex from $|z_{vtx}|<$ 8 cm to $|z_{vtx}|<$ 6 cm. The narrower primary vertex selection allows one to accept more forward tracks, which could be very sensitive to select long-range side. The estimated uncertainty is increased up to 12\% from 1\%, which is obtained without the event scale selection.
 
-The M.C. closure test for efficiency correction results in $\sim$4\% discrepancy. The discrepancy is considered into systematic uncertainty.
+The uncertainty from the track selection is estimated by varying the track selection methodologies from the one optimized for refining the angular track distribution to the other optimized for particle identification. The estimated uncertainty for track selection is 4\% by averaging the uncertainty for whole transverse momentum bins and 2\% for 1$<\it{p}_{\rm{T}}<$2 GeV/\it{c}\rm{} tracks.
 
-The effect of primary vertex selection along the beam axis is estimated by varying the selection range of primary vertex from $|z_{vtx}|<$ 8 cm to $|z_{vtx}|<$ 6 cm. The estimated effect is $\sim$4\%. The effect of rejection of pile-up events. is estimated by varying the methodology of pile-up rejection. The estimated effect is $\sim$4\%. The effect of track selection is estimated by varying a few selection criteria included in track selection.The estimated effect is $\sim$5\%. 
+The uncertainty from the ZYAM procedure is estimated by varying the finding-scope for minimum position. The estimated uncertainty for track selection is 5.1\% by averaging the uncertainty for whole transverse momentum bins and 2\% for 1$<\it{p}_{\rm{T}}<$2 GeV/\it{c}\rm{} tracks, which is not largely affected by the event scale selection.
+
+The uncertainty from the long $\Delta\eta$ range is estimated by varying the $\Delta\eta$ range. The uncertainty might include effects from the longitudinal de-correlations and possible non-flow contamination, which is thought be small. The estimated uncertainty is increased up to 9\% from 3\%, which is obtained by averaging the whole transverse momentum range.
+
+The uncertainty from the mixing pool bin size of primary vertex is estimated by varying the bin size from 2.0 cm to 1.0 cm. The estimated uncertainty is 1-16\%
+
+*The M.C. closure test for efficiency correction results in $\sim$2.5\% discrepancy. The discrepancy is considered into systematic uncertainty.
+
+
 
 \iffalse
 
