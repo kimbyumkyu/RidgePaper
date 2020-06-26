@@ -5,7 +5,7 @@
 
 %LHC at CERN produces various interesting phenomena including the ridge effect that is the main topic of the document in pp collisions with the highest center-of-mass energy in the world.
 %Recent center-of-mass energy in pp collisions reaches up to $\sqrt{s} = 13$~TeV during the last LHC Run 2 period. 
-The analysis is based on the data sets in pp collisions at $\sqrt{s} = 13$~TeV collected from 2016 to 2018 in the LHC Run 2 period. The full description of ALICE detector in the LHC Run 2 can be found in Refs.~\cite{Aamodt:2008zz,Abelev:2014ffa}. The present analysis mainly utilizes V0~\cite{Abbas:2013taa}, ITS (Inner Tracking System)~\cite{aliceITS} and TPC (Time Projection Chamber)~\cite{aliceTPC} detectors.
+The analysis is based on the data sets in pp collisions at $\sqrt{s} = 13$~TeV collected from 2016 to 2018 in the LHC Run 2 period. The full description of ALICE detector in the LHC Run 2 can be found in Refs.~\cite{Aamodt:2008zz,Abelev:2014ffa}. The present analysis mainly utilizes the V0~\cite{Abbas:2013taa}, ITS (Inner Tracking System)~\cite{aliceITS} and TPC (Time Projection Chamber)~\cite{aliceTPC} detectors.
 
 
 The V0 detector consists of two rings, V0-A and V0-C, each made of 32 scintillator tiles, covering the full azimuthal angle within $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively. The V0 provides trigger and estimation of event multiplicity. A sample of events including higher numbers of produced particles is obtained with a high multiplicity trigger, which is achieved by requiring 5 times of mean signal amplitudes of energy deposit by charged particles in the V0 detector.
@@ -14,7 +14,7 @@ Charged particles are reconstructed by the ITS and TPC, which are working in a c
 %https://arxiv.org/pdf/1910.14400.pdf
 
 %The multiplicity class is classified by the signal amplitude of the V0 detector.
-The high multiplicity events used in the present analysis have the top 0.1\% signal amplitude (the 0--0.1\% multiplicity class) by the V0 detector with respect to the set of minimum bias events at ALICE. Corresponding number of charged particles is reported as $\sim$31 in the mid-rapidity region ($|\eta|<0.5$) that is almost 5 times larger than the minimum-bias events~\cite{}. Statistics of the high multiplicity event benefits from a dedicated high multiplicity trigger that was recently implemented at ALICE  in the LHC Run 2 period.  
+The high multiplicity events used in the present analysis have the top 0.1\% signal amplitude (the 0--0.1\% multiplicity class) by the V0 detector with respect to the set of minimum bias events at ALICE. Corresponding number of charged particles is reported as $\sim$31 in the mid-rapidity region ($|\eta|<0.5$) that is almost 5 times larger than the minimum-bias events. Statistics of the high multiplicity event benefits from a dedicated high multiplicity trigger that was recently implemented at ALICE  in the LHC Run 2 period.  
  
 
 
@@ -38,7 +38,7 @@ The baseline of the correlations is subtracted by implementing Zero-Yield-At-Min
 Y^{\rm{assoc}} = \int_{|\Delta \varphi| < |\Delta\varphi_{\rm{min}}| } \rm{d} \Delta\varphi \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } \quad.
 \end{eqnarray}
 
-The ridge yield is further studied by exploiting the largest momentum transfer between the initial partons in a given event, which results from the hard scattering. In this article, larger momentum transfer denotes harder event scale. The larger momentum transfer is also expected to be connected with the shorter impact parameters in pp collisions in average~\cite{Sjostrand:1986ep,Frankfurt:2010ea} so that the event scale can be indirectly connected with the impact parameters.
+The ridge yield is further studied by exploiting the largest momentum transfer among the initial partons in a given event, which results from the hard scattering. In this article, larger momentum transfer denotes harder event scale. The larger momentum transfer is also expected to be connected with the shorter impact parameters in pp collisions in average~\cite{Sjostrand:1986ep,Frankfurt:2010ea} so that the event scale can be indirectly connected with the impact parameters.
 % The ridge yield is further studied by exploiting the momentum transfer between the interacting partons,so called, event scale.  On average, increasingly hard parton interactions result from pp collisions with decreasing impact parameters between the two proton ///original version
 The event scales are set by requiring minimum transverse momentum of leading track or reconstructed jet in mid-rapidity since hard scattering produces leading tracks with a high $p_\mathrm{T}$ or jets. The leading track is selected within $|\eta|<0.9$ and the full azimuthal angle. Jets are reconstructed with charged particles only (charged jets) for the anti-$k_{\rm{T}}$ algorithm and the resolution parameter $R = 0.4$. Jets are selected in $|\eta_\mathrm{jet}|<0.4$ and the full azimuthal angle. The transverse momentum of jets $p_\mathrm{T,\,jet}$ is corrected for underlying event density that is measured for the $k_{\rm{T}}$ algorithm with $R = 0.2$. 
 
@@ -53,12 +53,13 @@ The systematic uncertainty is evaluated by varying the event selection, track se
 Finally, the uncertainty from the efficiency correction for charged tracks is estimated by comparing the correlations function constructed by reconstructed tracks from the detector responses with the correlation function constructed by generated particles from the event generator.
 The uncertainty of $Y^{\rm{assoc}}(\pttrig,\,\ptassoc)$ is summarized by averaging each uncertainty for given $\pttrig$ and $\ptassoc$. The uncertainty of $Y^{\rm{assoc}}(\ptlead)$ and $Y^{\rm{assoc}}(\ptjet)$ is summarized by averaging the each uncertainty for a given $\ptlead$ and $\ptjet$ selection, respectively.
 \begin{table}[h!]
+\caption{The relative systematic uncertainty of the associated yield spectrum are estimated for $Y^{\rm{assoc}}(\pttrig,\,\ptassoc)$, $Y^{\rm{assoc}}(\ptlead)$, and $Y^{\rm{assoc}}(\ptjet)$, respectively.}
 \centering
 \begin{tabular}{|c|c|c|c|}
 \hline 
 \multirow{2}{*}{Sources}  & \multicolumn{3}{c|}{Systematic uncertainty (\%)} \\\cline{2-4}
          & $Y^{\rm{assoc}}(\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}})$ & $Y^{\rm{assoc}}(\it{p}_{\rm{T, Lead}})$ & $Y^{\rm{assoc}}(\it{p}_{\rm{T, Jet}})$ \\ \hline \hline
-Pileup cut			& $\sim$0.8	&0--4		&0--4		\\ \hline
+Pileup rejection		& $\sim$0.8	&0--4		&0--4		\\ \hline
 Primary Vertex		& $\sim$2.4	&1--12	&1-8		\\ \hline
 
 Tracking			& $\sim$4.0 	&2		&2		\\ \hline
@@ -73,7 +74,6 @@ Total 			& $\sim$9.7	&4--16	&4--22	\\
 \hline 
 \end{tabular}
 \label{tab:syst}
-\caption{The relative systematic uncertainty of the associated yield spectrum are estimated for $Y^{\rm{assoc}}(\pttrig,\,\ptassoc)$, $Y^{\rm{assoc}}(\ptlead)$, and $Y^{\rm{assoc}}(\ptjet)$, respectively.}
 \end{table}
 
 The uncertainty from the pileup rejection is estimated by measuring the changes of results with different rejection criteria from the default one. The pileup rejection is achieved by reconstructing the multiple vertex in the individual event. The multiplicity of the reconstructed vertices determines whether the event is contaminated by pileup or not. The variation is set by the minimum multiplicity of reconstructed vertices from 5 to 3. 
