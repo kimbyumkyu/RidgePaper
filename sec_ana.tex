@@ -7,26 +7,35 @@
 %Recent center-of-mass energy in pp collisions reaches up to $\sqrt{s} = 13$~TeV during the last LHC Run 2 period. 
 The analysis is based on the data sets of pp collisions at $\sqrt{s} = 13$~TeV collected from 2016 to 2018 during the LHC Run 2 period. The full description of the ALICE detector in the LHC Run 2 can be found in Refs.~\cite{Aamodt:2008zz,Abelev:2014ffa}. The present analysis mainly utilizes the V0~\cite{Abbas:2013taa}, ITS (Inner Tracking System)~\cite{aliceITS}, and TPC (Time Projection Chamber)~\cite{aliceTPC} detectors.
 
-
-The V0 detector consists of two rings, V0-A and V0-C, each made of 32 scintillator tiles, covering the full azimuthal angle within pseudorapidity intervals $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively. The V0 provides trigger and estimation of event multiplicity. A sample of events including higher numbers of produced particles is obtained with a high-multiplicity trigger, which is achieved by requiring 5 times of mean signal amplitudes of energy deposit by charged particles in the V0 detector.
-
-Charged particles are reconstructed by the ITS and TPC, which are working in a constant solenoidal magnetic field of 0.5~T. The ITS is composed of three sub-systems, Silicon Pixel Detector (SPD), Silicon Drift Detector (SDD) and Silicon Strip Detector (SSD). The ITS and TPC covering the full azimuthal region have acceptances up to $|\eta| < 1.4$ and 0.9, respectively, for detection of charged particles with a primary vertex in $|z_\mathrm{vtx}| < 8$~cm. The tracking of charged particles is done with the combined information of the ITS and TPC that enables the reconstruction of tracks down to 0.15~GeV/$c$ with about 65\% efficiency.
+Charged particles are reconstructed by the ITS and TPC, which are working in a constant solenoidal magnetic field of 0.5~T. The ITS is composed of three sub-systems, Silicon Pixel Detector (SPD), Silicon Drift Detector (SDD) and Silicon Strip Detector (SSD). The ITS and TPC covering the full azimuthal region have acceptances up to $|\eta| < 1.4$ and 0.9, respectively, for detection of charged particles with a primary vertex in $|z_\mathrm{vtx}| < 8$~cm. The tracking of charged particles is done with the combined information of the ITS and TPC that enables the reconstruction of tracks down to 0.15~GeV/$c$ with about 65\% efficiency. The efficiency goes up to 80\% for intermediate transverse momentum(1--5~GeV/$c$). The transverse momentum resolution is better than 3\% for primary tracks with low $\pt<$1~GeV/$c$, and linearly degrades up to 6\% at $\pt \sim$ 40~GeV/$c$.
 %https://arxiv.org/pdf/1910.14400.pdf
+%https://arxiv.org/abs/1402.4476
+
+The V0 detector consists of two rings, V0-A and V0-C, each made of 32 scintillator tiles, covering the full azimuthal angle within pseudorapidity intervals $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively. 
+The V0 is used to assess event activity and it provides minimum bias (MB) and high-multiplicity (HM) trigger. The minimum bias trigger is obtained by a time coincidence of V0A and V0C signals. The high multiplicity trigger requires that amplitude of the combined V0A and V0C signal exceeds 5 times the mean value measured in minimum bias collisions.
+%The high-multiplicity events used in the present analysis have the top 0.1\% signal amplitude (the 0--0.1\% multiplicity class) by the V0 detector with respect to the set of minimum bias events at ALICE. Corresponding number of charged particles is reported as $\sim$31 in the mid-rapidity region ($|\eta|<0.5$) that is almost 5 times larger than the minimum-bias events.
+
+%The V0 provides trigger and estimation of event multiplicity. A sample of events including higher numbers of produced particles is obtained with a high-multiplicity trigger, which is achieved by requiring 5 times of mean signal amplitudes of energy deposit by charged particles in the V0 detector.
 
 %The multiplicity class is classified by the signal amplitude of the V0 detector.
-The high-multiplicity events used in the present analysis have the top 0.1\% signal amplitude (the 0--0.1\% multiplicity class) by the V0 detector with respect to the set of minimum bias events at ALICE. Corresponding number of charged particles is reported as $\sim$31 in the mid-rapidity region ($|\eta|<0.5$) that is almost 5 times larger than the minimum-bias events. Statistics of the high-multiplicity event benefits from a dedicated high-multiplicity trigger that was recently implemented at ALICE  in the LHC Run 2 period.  
- 
 
 
 \section{Analysis Procedure}
 \label{sec:ana}
 
-The two-particle correlations function is measured as functions of relative pseudorapidity ($\Delta\eta$) and azimuthal angle differences($\Delta\varphi$) between the trigger and associated particles.
+The minimum-bias pp data sample at $\sqrt{s}$ = 13 TeV were collected as 19.0 nb$^{-1}$. The high-multiplicity pp data sample were collected as 11.4 $\mu$b$^{-1}$ with higher threshold of V0 detector~\cite{ALICE-PUBLIC-2016-002}.
+
+The primary vertex position is reconstructed by combining observed signal clusters in the SPD. Events including a reconstructed vertex along beam axis($z_{\rm{vtx}}$) within 8 cm are only selected among events having proper primary vertex. A few events have multiple reconstructed primary vertice, which are thought to be results from multiple collisions, known as Pileup. Such Pileup events are rejected with the number of reconstructed vertice with respect to multiplicity class. The probability of Pileup is estimated to be 0.6\%.
+
+Requirements for reconstruction of charged particles are optimized to have the flat angular distribution of charged particles that is called hybrid tracks to minimize the effect of inactive regions of the ITS and TPC detectors~\cite{hybridExplanation}. 
+The hybrid tracks combine two different classes of tracks. The first class consists of tracks that have at least one hit in the SPD. The tracks from the second class do not have any SPD associated hit and mainly rely on the position information of the primary vertex when reconstructing the tracks.
+
+The two-particle correlations function is measured as functions of relative pseudorapidity ($\Delta\eta$) and azimuthal angle differences ($\Delta\varphi$) between the trigger and associated particles.
 \begin{eqnarray}
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)} \lvert_{\pttrig,\ptassoc}  , 
 \label{eq:corrfunction}
 \end{eqnarray}
-where  $\pttrig$ and $\ptassoc$ are transverse momenta of the trigger and associated particles, respectively, $N_\mathrm{trig}$ is the number of trigger particles and $N_\mathrm{pair}$ is the number of trigger-associated particle pairs. $S (\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlations in the same event and $B(\Delta\eta, \Delta\varphi)$ is in mixed events. The mixed events distribution is normalized by its value at $\Delta\eta$ and $\Delta\varphi = 0$, represented as $B (0,0)$. In mixed events, the primary vertices and multiplicity classes are required to be in the same range to avoid the acceptance effect with respect to the multiplicity class and primary vertex. The interval of primary vertex is 2 cm. The final per-trigger yield is constructed by averaging correlations function over the primary vertex intervals.
+where  $\pttrig$ and $\ptassoc$ are transverse momenta of the trigger and associated particles, respectively, $N_\mathrm{trig}$ is the number of trigger particles and $N_\mathrm{pair}$ is the number of trigger-associated particle pairs. $S (\Delta\eta, \Delta\varphi)$ is constructed using two-particle correlations in the same event and $B(\Delta\eta, \Delta\varphi)$ is in mixed events. $B(\Delta\eta, \Delta\varphi)$ is normalized by its value at $\Delta\eta$ and $\Delta\varphi = 0$, represented as $B (0,0)$. The primary vertice of mixed events are required to be in the same range to avoid the acceptance effect. The interval of primary vertex is 2 cm. The final per-trigger yield is constructed by averaging correlations function over the primary vertex intervals.
 
 The ridge yields at large $\Delta\eta$ are extracted in different multiplicity classes and transverse momentum intervals. The large $\Delta\eta$ range is selected as $1.6<|\Delta\eta|<1.8$ where non-flow effects (mainly coming from jets) are negligible. In this region, the $\Delta\varphi$ distribution, or the so called per-trigger yield is expressed as
 \begin{eqnarray}
@@ -38,12 +47,22 @@ The baseline of the correlations is subtracted by implementing Zero-Yield-At-Min
 Y^{\rm{assoc}} = \int_{|\Delta \varphi| < |\Delta\varphi_{\rm{min}}| } \rm{d} \Delta\varphi \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } \quad.
 \end{eqnarray}
 
-The ridge yield is further studied in events having a hard jet or a high-pT leading particle in the ALICE central barrel. Such requirement is expected to bias impact parameter of pp collisions to be smaller on average~\cite{Sjostrand:1986ep,Frankfurt:2010ea}.
+The ridge yield is further studied in events having a hard jet or a high-$\pt$ leading particle in the mid rapidity. Such requirement is expected to bias impact parameter of pp collisions to be smaller on average~\cite{Sjostrand:1986ep,Frankfurt:2010ea}.
 %The ridge yield is further studied by exploiting the largest momentum transfer among the initial partons in a given event, which results from the hard scattering. In this article, larger momentum transfer denotes harder event-scale. The larger momentum transfer is also expected to be connected with the shorter impact parameters in pp collisions in average~\cite{Sjostrand:1986ep,Frankfurt:2010ea} so that the event-scale can be indirectly connected with the impact parameters.
 % The ridge yield is further studied by exploiting the momentum transfer between the interacting partons,so called, event scale.  On average, increasingly hard parton interactions result from pp collisions with decreasing impact parameters between the two proton ///original version
 The event-scale is set by requiring minimum transverse momentum of leading track or reconstructed jet in mid-rapidity since hard scattering produces leading tracks with a high $p_\mathrm{T}$ or jets. The leading track is selected within $|\eta|<0.9$ and the full azimuthal angle. Jets are reconstructed with charged particles only (charged jets) with the anti-$k_{\rm{T}}$ algorithm and the resolution parameter $R = 0.4$. Jets are selected in $|\eta_\mathrm{jet}|<0.4$ and the full azimuthal angle. The transverse momentum of jets $p_\mathrm{T,\,jet}$ is corrected for underlying event density that is measured for the $k_{\rm{T}}$ algorithm with $R = 0.2$. 
 
-Monte Carlo simulation with $\pythiam$ event generator and particle transport inside ALICE using GEANT3~\cite{Brun:1994aa} is used to correct the acceptance and the efficiency of the ALICE detectors. 
+To quantify variation of jet yield with event-scale selections using minimum $p_\mathrm{T,\,LP}$ or $p_\mathrm{T,\,jet}$, jet yield is extracted from near-side $\Delta\eta$ correlations. The near-side is defined as $|\Delta\varphi|<$7$\pi$/16, where the correlations function is projected along to $\Delta\varphi$ direction for 1$<\pttrig$, $\ptassoc<$2 GeV/$c$ in high-multiplicity events. The near-side $\Delta\eta$ correlations are constructed as
+\begin{eqnarray}
+\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } = \int_{|\Delta \varphi|<7\pi/16} \rm{d} \Delta \varphi \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta d\Delta\varphi} \quad.
+\end{eqnarray}
+
+The baseline of the $\Delta\eta$ correlations is also subtracted by implementing ZYAM procedure. The minimum yield $(C_{\rm{ZYAM}})$ of $\Delta\eta$ correlations is found within $|\Delta\eta|<$1.8 and used for subtraction from  $\Delta\eta$ correlations, which results in zero-yield at minimum. The jet yield ($Y^{\mathrm{jet}}$) is measured by integrating the $\Delta\eta$ correlations over $|\Delta\eta|<$1.6 after applying ZYAM procedure for $\Delta\eta$ correlations.
+\begin{eqnarray}
+Y^{\rm{jet}} = \int_{|\Delta \eta|<1.6} \rm{d} \Delta\eta \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } - C_{\rm{ZYAM}} \right)\quad.
+\end{eqnarray}
+
+%Monte Carlo simulation with $\pythiam$ event generator and particle transport inside ALICE using GEANT3~\cite{Brun:1994aa} is used to correct the acceptance and the efficiency of the ALICE detectors. 
 
 %The corrections have been tested by comparing the distributions, which are constructed with generated true particles and reconstructed particles with detector responses. The several percentage of non-closure has been considered into systematic uncertainty.
 
@@ -53,19 +72,19 @@ Monte Carlo simulation with $\pythiam$ event generator and particle transport in
 Systematic uncertainties on $Y^{\rm{assoc}}$ were estimated by varying the analysis selection criteria and evaluated as functions of $\pttrig$($\ptassoc$) and $\ptlead$ or $\ptjet$ as described in Tab.~\ref{tab:syst}. The uncertainty on $Y^{\rm{assoc}}(\pttrig,\,\ptassoc)$, which denotes the ridge yield as a function of $\pttrig$($\ptassoc$), was evaluated without any biases from even-scale selection. The uncertainties on $Y^{\rm{assoc}}(\ptlead)$ and $Y^{\rm{assoc}}(\ptjet)$, which denote the ridge yield as functions of $\ptlead$ and $\ptjet$, were evaluated only for the 1$<\pttrig, \ptassoc<$2 GeV/$c$ range.
 
 \begin{table}[h!]
-\caption{The relative systematic uncertainty of the associated yield spectrum are estimated for $Y^{\rm{assoc}}(\pttrig,\,\ptassoc)$, $Y^{\rm{assoc}}(\ptlead)$, and $Y^{\rm{assoc}}(\ptjet)$, respectively.}
+\caption{The relative systematic uncertainty of the associated yield spectrum estimated for $Y^{\rm{assoc}}(\pttrig,\,\ptassoc)$, $Y^{\rm{assoc}}(\ptlead)$, and $Y^{\rm{assoc}}(\ptjet)$, respectively.}
 \centering
 \begin{tabular}{|c|c|c|c|}
 \hline 
 \multirow{2}{*}{Sources}  & \multicolumn{3}{c|}{Systematic uncertainty (\%)} \\\cline{2-4}
          & $Y^{\rm{assoc}}(\it{p}_{\rm{T, trig}},\,\it{p}_{\rm{T, assoc}})$ & $Y^{\rm{assoc}}(\it{p}_{\rm{T, Lead}})$ & $Y^{\rm{assoc}}(\it{p}_{\rm{T, Jet}})$ \\ \hline \hline
 Pileup rejection		& 0.8	&0--4		&0--4		\\ \hline
-Primary Vertex		& 2.4	&1--12	&1--8		\\ \hline
+Primary vertex		& 2.4	&1--12	&1--8		\\ \hline
 
 Tracking			& 4.0 	&2		&2		\\ \hline
 
 ZYAM			& 5.1	&2		&2		\\ \hline
-$\Delta\eta$ range	& 4.5	&3--7		&3--9		\\ \hline
+Jet contamination	& 4.5	&3--7		&3--9		\\ \hline
 
 Event mixing			& 4.4	&2--8		&1--16	\\ \hline
 
@@ -76,18 +95,19 @@ Total(in quadrature)			& 9.7	&4--16	&4--22	\\
 \label{tab:syst}
 \end{table}
 
-The uncertainty from the pileup rejection is estimated by measuring the changes of results with different rejection criteria from the default one. The pileup rejection is achieved by reconstructing the multiple vertex in the individual event. The multiplicity of the reconstructed vertices determines whether the event is contaminated by pileup or not. The variation is set by the minimum multiplicity of reconstructed vertices from 5 to 3. 
+The uncertainty from the pileup rejection is estimated by measuring the changes of results with different rejection criteria from the default one. The pileup rejection is achieved by reconstructing the multiple vertice in the individual event. The multiplicity of the reconstructed vertice determines whether the event is contaminated by pileup or not. The variation is set by the minimum multiplicity of reconstructed vertices from 5 to 3. 
 %Pileup cut (multbins) -> (default pileup from the physics selection)
 %Pileup cut (multbins) -> PileupMV (?)
-The estimated uncertainty is 1\% without $\ptlead$ or $\ptjet$ selection. The uncertainty is increased up to 4\% for event with the $\ptlead$ or $\ptjet$ selection. The uncertainty from the primary vertex selection along the beam axis is estimated by varying the selection range of primary vertex from $|z_\mathrm{vtx}|<$ 8 to 6 cm. The narrower primary vertex selection allows one to test the acceptance effect on the measurement. The estimated uncertainty is increased up to 12\% from 1\%.
+The estimated uncertainty is 1\% without $\ptlead$ or $\ptjet$ selection. The uncertainty varies up to 4\% for event with the $\ptlead$ or $\ptjet$ selection. The uncertainty from the primary vertex selection along the beam axis is estimated by varying the selection range of primary vertex from $|z_\mathrm{vtx}|<$ 8 to 6 cm. The narrower primary vertex selection allows one to test the acceptance effect on the measurement. The estimated uncertainty is 1--12\% with the varying event-scale selections.
 
-The uncertainty from the track selection is estimated by varying the track selection criteria from the one optimized for refining the angular track distribution to the other optimized for particle identification. The variation is achieved by changing the mandatory SPD requirement and the maximal threshold for chi-square of the track fit.
+The uncertainty from the track selection is estimated by varying from the hybrid tracks to the other one optimized for particle identification that is called the global tracks. The selection criteria of the global tracks are almost identical to the hybrid tracks except for the requirement of at least one hit on the SPD. Due to the requirement, the quality of the global tracks is sensitive to the condition of the SPD, finally resulting a non-flat azimuthal distribution of charged particles with the selection.     
+%The variation is achieved by changing the mandatory SPD requirement and the maximal threshold for chi-square of the track fit.
 %https://github.com/alisw/AliRoot/blob/master/ANALYSIS/ESDfilter/macros/AddTaskESDFilter.C
-The estimated uncertainty for track selection is 4\% by averaging the uncertainty for whole transverse momentum bins and 2\% for 1$<\it{p}_{\rm{T}}<$2 GeV/$c$ particles.
+The uncertainty origination from the variation of the track selections is estimated as 4\%. The uncertainty is measured by averaging for various transverse momentum ranges regardless of event-scale selections.
 
-The ZYAM procedure is implemented by finding a minimum yield in a given finding range. The uncertainty from the ZYAM procedure is estimated by varying the range from the $|\Delta\varphi|<\pi/$2 up to $|\Delta\varphi|<1.2$. The estimated uncertainty for track selection is 5.1\% by averaging the uncertainty for the whole transverse momentum bins and 2\% for 1$<\it{p}_{\rm{T}}<$2 GeV/$c$ tracks, which is not largely affected by the event-scale selection. The uncertainty from the $\Delta\eta$ projection range is estimated by varying the $\Delta\eta$ range. The uncertainty reflects effects from longitudinal de-correlations and possible non-flow contamination, which is thought be small. The estimated uncertainty is 3--9\% with the varying event-scale selection, which is obtained by averaging the whole transverse momentum range.
+The ZYAM procedure is implemented by finding a minimum yield in a given finding range. The uncertainty from the ZYAM procedure is estimated by varying the range from the $|\Delta\varphi|<\pi/$2 up to $|\Delta\varphi|<1.2$. The estimated uncertainty for track selection is 5.1\% by averaging the uncertainty for the whole transverse momentum bins and 2\% for 1$<\it{p}_{\rm{T}}<$2 GeV/$c$ tracks, which is not largely affected by the event-scale selection. The uncertainty from the jet contamination is estimated by varying the $\Delta\eta$ projection range to see how much the jet contamination varies, which is thought be small. The estimated uncertainty is 3--9\% with the varying event-scale selection.
 
-The uncertainty from the event mixing intervals of primary vertex is estimated by varying the bin size from 2 to 1 cm. The estimated uncertainty is 1--16\% with the varying event-scale selection. The estimated uncertainty is largely varied from the fact that the event mixing distribution is constructed without the event-scale selection. The uncertainty from the efficiency correction for charged track is estimated by comparing correlations functions of true particles with correlations functions of reconstructed tracks with the efficiency correction in simulation. 
+The uncertainty from the event mixing intervals of primary vertex is estimated by varying the interval size from 2 to 1 cm. The estimated uncertainty is 1--16\% with the varying event-scale selection. The uncertainty from the efficiency correction for charged track is estimated by comparing correlations functions of true particles with correlations functions of reconstructed tracks with the efficiency correction in simulation. The estimated uncertainty is 1-2.5\% regardless of the event-scale selection.
 
 %Systematic uncertainties were estimated by varying the event selection, track selection, yield extraction procedures and detector efficiency correction. Each source is assumed to be uncorrelated. The uncertainty from the event selection can be divided into pile-up rejection and primary vertex selection. The uncertainty from the track selection is estimated by changing the selection criteria. The uncertainty from the yield extraction procedures can be categorized into long-range definition and ZYAM procedure. The uncertainty from the efficiency correction is estimated by enlarging the event mixing bins, which is relevant to the acceptance correction.
 %Finally, The uncertainty from the application of the detector efficiency correction is estimated comparing the results constructed by efficiency corrected tracks with the results constructed. 
