@@ -187,6 +187,7 @@ ENTRY
     archivePrefix
     primaryClass
     url
+    urldate
     doi
   }
   {}
@@ -432,6 +433,13 @@ FUNCTION {format.url}
   if$
 }
 
+FUNCTION {format.urldate}
+{ urldate empty$
+    { "" }
+    {"accessed " urldate * "" *}
+  if$
+}
+
 FUNCTION {add.doi}
 { duplicate$ empty$
     { skip$ }
@@ -473,7 +481,7 @@ FUNCTION {format.editors}
 FUNCTION {format.title}
 { title empty$
     { "" }
-    { "``" title "t" change.case$ * ",''" * }
+    { "``" title "t" change.case$ * "''," * }
   if$
 }
 
@@ -832,7 +840,6 @@ FUNCTION {format.journal}
      format.volume *
      format.number *
      format.date.paren *
-     format.pages.nopp *
       }
     if$
 }
@@ -1115,6 +1122,33 @@ FUNCTION {misc}
   format.date output
   new.block
   format.url output
+  new.sentence
+  note output
+  new.sentence
+  fin.entry
+  empty.misc.check
+}
+
+FUNCTION {online}
+{ output.bibitem
+  format.collaboration output
+  format.authors output
+  title empty$
+    { howpublished new.sentence.checka }
+    { howpublished empty$ not
+      month empty$ year empty$ and
+      or
+	{ format.title.p output.nonnull }
+	{ format.title output.nonnull }
+      if$
+      blank.sep
+    }
+  if$
+  format.howpublished output
+  format.date output
+  new.block
+  format.url output
+  format.urldate output
   new.sentence
   note output
   new.sentence
